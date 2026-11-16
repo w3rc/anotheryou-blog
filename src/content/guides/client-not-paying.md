@@ -1,7 +1,7 @@
 ---
 title: "Client Not Paying? Indian Law Makes Them Pay Interest"
 description: "If you're registered as a micro enterprise, an Indian client who pays late owes you compound interest at three times the RBI bank rate. What every Indian freelancer ought to know."
-h1: "Client not paying? Indian law can make them pay you interest at three times the RBI rate"
+h1: "Client Not Paying? Indian Law Can Make Them Pay 3x the RBI Rate in Interest, Even If Your Contract Says \"Net 90\""
 dek: "What every Indian freelancer ought to know before signing the next client's contract, and what to do with the invoice that's already 60 days late."
 warn: false
 order: 4

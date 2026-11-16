@@ -1,7 +1,7 @@
 ---
 title: "Recovery Agents Calling Your Relatives? RBI Bans That"
 description: "6 things RBI does not allow a loan recovery agent to do, and the complaint your bank has to answer when they do them anyway."
-h1: "Recovery agents calling your relatives to shame you? RBI bans that"
+h1: "6 Things RBI Bans Recovery Agents From Doing (#2: Shaming You in Front of Your Family)"
 dek: "6 things a recovery agent is not allowed to do, and what to do when they do them anyway."
 warn: false
 order: 3

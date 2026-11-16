@@ -1,7 +1,7 @@
 ---
 title: "Don't Sign Your Rent Agreement Before Reading This"
 description: "One clause can let a landlord keep your whole deposit. 11 things every tenant in India ought to know before handing over months of rent."
-h1: "Don't sign your rent agreement before reading this"
+h1: "11 Things Every Tenant Must Know Before Signing a Rent Agreement (#2 Can Cost You Your Whole Deposit)"
 dek: "One clause in it can let your landlord keep your entire deposit. Here are 11 things every tenant ought to know before handing over months of rent."
 warn: true
 order: 1

@@ -1,7 +1,7 @@
 ---
 title: "Insurer Cut the Hospital Claim? Read This Before You Pay"
 description: "Insurers have one hour to decide a cashless request and three hours to clear a discharge. What every family ought to know about a cut or rejected health insurance claim, and the free complaint after it."
-h1: "Don't pay the balance at the TPA desk before reading this"
+h1: "Don't Pay the Balance at the TPA Desk Before Reading This (Your Insurer Has Only 3 Hours to Clear a Discharge)"
 dek: "Your insurer has three hours to clear a discharge, and a cut claim isn't always final. What every family ought to know before, during and after a hospital claim."
 warn: true
 order: 5

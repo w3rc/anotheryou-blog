@@ -1,7 +1,7 @@
 ---
 title: "Refund Stuck? The Law Gives Shopping Sites One Month"
 description: "Support closed your ticket again? Under the E-Commerce Rules 2020 a shopping site must resolve your complaint within one month. The escalation ladder, step by step."
-h1: "Support closed your ticket again? The law gives every shopping site one month to fix your complaint"
+h1: "Refund Stuck? Shopping Sites Must Fix Your Complaint Within One Month, Even If Support Keeps Closing Your Ticket"
 dek: "What every online shopper ought to know before the next \"refund in 7 to 10 days\" message."
 warn: false
 order: 2
