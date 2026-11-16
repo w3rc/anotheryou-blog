@@ -7,6 +7,9 @@ warn: true
 order: 5
 indexLine: "The 1 hour and 3 hour rules, the 5 year rule on pre-existing diseases, and the free complaint after."
 date: 2026-11-16
+optinH: "The Health Claim Grievance Kit: fight a cut claim without a lawyer"
+optinSub: "2 printable pages: the grievance letter with IRDAI's rules already written in, the 4 step route to the Ombudsman, and the discharge desk checklist. Enter your email and the PDF lands in your inbox in about a minute."
+optinBullets: ["A \"pre-existing disease\" rejection is final, right? Not after 60 months of continuous cover.", "What to note at the discharge desk to start the 3 hour clock", "The free route that hears claims up to ₹50 lakh", "Why \"as per policy terms\" isn't an answer, and what to ask for instead"]
 ---
 <div class="box">
 <h3>Why are we publishing this?</h3>
@@ -43,10 +46,10 @@ date: 2026-11-16
 <h2>What to keep, starting today</h2>
 <p>The policy schedule for every year, the claim forms, the discharge summary, the final bill with its item list, and the insurer's letter. One folder. It's your whole case.</p>
 
+<!--optin-->
+
 <div class="cta">
-<h2>There's more than fits on one page</h2>
-<p>Want the grievance letter format and the Ombudsman steps on one printable page? Email us and we'll send it, free, no obligation.</p>
-<a class="btn" href="mailto:hello@anotheryou.si?subject=CLAIM%20letter">Email me the letter format</a>
+<h2>Want it done for you?</h2>
 <p>Got the rejection letter in hand? There's an agent on Another You that reads it, tells you how strong the case looks against the rules, and writes the grievance letter and the Ombudsman complaint.</p>
 <a class="btn ghost" href="https://app.anotheryou.si/a/insurance-claim-helper">Write my claim complaint</a>
 </div>

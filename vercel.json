@@ -1,1 +1,16 @@
-{ "framework": null, "buildCommand": "python3 build.py", "outputDirectory": "dist" }
+{
+ "framework": null,
+ "buildCommand": "python3 build.py",
+ "outputDirectory": "dist",
+ "headers": [
+  {
+   "source": "/files/(.*)",
+   "headers": [
+    {
+     "key": "X-Robots-Tag",
+     "value": "noindex"
+    }
+   ]
+  }
+ ]
+}

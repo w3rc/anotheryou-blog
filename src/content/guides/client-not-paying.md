@@ -7,6 +7,9 @@ warn: false
 order: 4
 indexLine: "One free registration, 45 days, and the tax rule your client's accountant cares about."
 date: 2026-11-16
+optinH: "The Unpaid Invoice Playbook: 3 emails that chase an invoice without a single awkward call"
+optinSub: "2 printable pages: 3 reminder emails from polite to final, the tax line that moves finance teams, and 3 clauses for your next contract. Enter your email and the PDF lands in your inbox in about a minute."
+optinBullets: ["\"Just following up\" works, right? Wrong. Here's the line finance teams move for.", "What to send when the invoice is 60 days late", "How a \"net 90\" contract can still owe you interest", "The free registration to do before the next contract, not after"]
 ---
 <div class="box">
 <h3>Why are we publishing this?</h3>
@@ -49,10 +52,10 @@ date: 2026-11-16
 <li><strong>Payment and a late fee:</strong> "Invoices are payable within 15 days. Overdue amounts carry interest at 1.5% a month, and the Freelancer may pause work while any invoice is more than 15 days overdue."</li>
 </ol>
 
+<!--optin-->
+
 <div class="cta">
-<h2>There's more than fits on one page</h2>
-<p>Want the reminder emails (first, second with the 43B(h) line, final) and the three clauses as one printable page? Email us and we'll send it, free, no obligation.</p>
-<a class="btn" href="mailto:hello@anotheryou.si?subject=INVOICE%20playbook">Email me the playbook</a>
+<h2>Want it done for you?</h2>
 <p>Got a contract in your inbox right now? There's an agent on Another You that reads it before you sign and marks the payment, acceptance and IP lines that will hurt you, with the wording to ask for instead.</p>
 <a class="btn ghost" href="https://app.anotheryou.si/a/freelance-contract-checker">Check my contract</a>
 </div>

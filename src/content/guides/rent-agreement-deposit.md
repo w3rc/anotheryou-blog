@@ -8,6 +8,9 @@ order: 1
 indexLine: "11 things every tenant ought to know before handing over a deposit."
 date: 2026-11-16
 footer: "Another You publishes these guides. General information, not legal advice; for a large deposit, a local lawyer is worth the fee."
+optinH: "The Rent Deposit Kit: protect your deposit in the 10 minutes before you sign"
+optinSub: "2 printable pages: the 11 checks, 5 clauses to ask for word for word, a move-in inventory sheet and the message to send the day you hand over the keys. Enter your email and the PDF lands in your inbox in about a minute."
+optinBullets: ["\"The entire deposit shall be forfeited\" is final, right? Wrong. Here's the line to replace it with.", "What you should never let a landlord write about painting and cleaning", "The 15 minute video on moving day that wins deposit fights", "Why \"notarised\" isn't registered, and the one state where every agreement must be"]
 ---
 <div class="box">
 <h3>Why are we publishing this?</h3>
@@ -62,10 +65,10 @@ footer: "Another You publishes these guides. General information, not legal advi
 <li>Then file: the Rent Authority or Rent Court in Model Tenancy Act states, the Small Causes Court in Mumbai, and a civil suit for recovery of money elsewhere. Consumer commissions generally don't hear landlord and tenant deposit disputes.</li>
 </ol>
 
+<!--optin-->
+
 <div class="cta">
-<h2>There's more than fits on one page</h2>
-<p>Want the whole thing as a printable checklist, to keep open at the stamp paper vendor? Email us and we'll send it, free, no obligation.</p>
-<a class="btn" href="mailto:hello@anotheryou.si?subject=DEPOSIT%20checklist">Email me the checklist</a>
+<h2>Want it done for you?</h2>
 <p>Already holding the draft agreement? There's an agent on Another You that reads it clause by clause and marks the risky lines, with the wording to ask for instead.</p>
 <a class="btn ghost" href="https://app.anotheryou.si/a/rental-agreement-checker">Check my agreement</a>
 </div>

@@ -24,6 +24,39 @@ def utm(page_html, campaign):
                   rf'href="\1?utm_source=blog&amp;utm_medium=guide&amp;utm_campaign={campaign}"', page_html)
 
 
+LEADS_URL = "https://quick-giraffe-792.convex.site/leads"  # Another You prod Convex; convex/leads.ts in the app repo
+
+
+def optin(g):
+    """The opt-in block (Sell Like Crazy): headline, subheadline, fascination bullets, the kit's cover, a 2 field form.
+    Plain POST, no JS: Convex answers with a 303 to /thanks/ or back here with #optin-error."""
+    if "optinH" not in g:
+        return ""
+    bullets = "".join(f"<li>{b}</li>" for b in g["optinBullets"])
+    return f'''<div class="optin" id="optin">
+<p class="optin-tag">Free download</p>
+<h2>{g["optinH"]}</h2>
+<p class="optin-sub">{g["optinSub"]}</p>
+<div class="optin-grid">
+<img src="/kits/{g["slug"]}.png" alt="Page 1 of the free kit" width="298" height="421" loading="lazy">
+<div>
+<ul class="fasc">{bullets}</ul>
+<p id="optin-error" class="optin-error">That email doesn't look right. Check it and try again.</p>
+<form method="post" action="{LEADS_URL}">
+<input type="hidden" name="guide" value="{g["slug"]}">
+<input type="hidden" name="utm" value="blog">
+<label>First name<input name="name" required maxlength="80" autocomplete="given-name"></label>
+<label>Email<input name="email" type="email" required maxlength="254" autocomplete="email"></label>
+<label>WhatsApp number <span>(optional)</span><input name="whatsapp" type="tel" maxlength="20" autocomplete="tel" inputmode="tel"></label>
+<label class="hp" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label>
+<button class="btn" type="submit">Send me the free kit</button>
+<p class="consent">We'll email you the PDF and, now and then, another free guide like this one. Reply STOP to any email and we stop. Your WhatsApp number is optional and never shared.</p>
+</form>
+</div>
+</div>
+</div>'''
+
+
 def attr(s):
     return html.escape(s, quote=False).replace('"', "&quot;")
 
@@ -79,7 +112,7 @@ def build():
     for g in guides:
         url = f"{SITE}/{g['slug']}/"
         main = ('<span class="warn">WARNING</span>\n' if g.get("warn") else "") + \
-            f'<h1>{g["h1"]}</h1>\n<p class="dek">{g["dek"]}</p>\n\n{g["body"]}'
+            f'<h1>{g["h1"]}</h1>\n<p class="dek">{g["dek"]}</p>\n\n{g["body"].replace("<!--optin-->", optin(g))}'
         out = DIST / g["slug"] / "index.html"
         out.parent.mkdir(parents=True)
         out.write_text(utm(page(g["title"], g["description"], main, g.get("footer", DEFAULT_FOOTER),
@@ -92,6 +125,14 @@ def build():
     (DIST / "index.html").write_text(utm(page("Another You Guides", "Plain guides for the moments that cost you money: rent deposits, stuck refunds, recovery agents, unpaid invoices, hospital claims.",
                                           main, "Another You publishes these guides. General information, not legal advice.",
                                           '<a href="https://app.anotheryou.si">app.anotheryou.si</a>', SITE + "/"), "home"))
+
+    thanks = ('<h1>Check your inbox</h1>\n<p class="dek">Your free kit is on its way. It usually lands within a minute; if it doesn\'t, look in Promotions or Spam and drag it to your inbox, so the next one arrives too.</p>\n'
+              '<p>While you wait, the other guides:</p>\n'
+              f'<div class="list">\n{items}\n</div>')
+    (DIST / "thanks").mkdir()
+    (DIST / "thanks" / "index.html").write_text(page("Check your inbox", "Your free kit is on its way.", thanks,
+                                                     DEFAULT_FOOTER, '<a href="/">All guides</a>', SITE + "/thanks/").replace(
+                                                     "<meta name=\"description\"", "<meta name=\"robots\" content=\"noindex\">\n<meta name=\"description\""))
 
     last = max(str(g["date"]) for g in guides)
     urls = [(SITE + "/", last)] + [(f"{SITE}/{g['slug']}/", str(g["date"])) for g in guides]

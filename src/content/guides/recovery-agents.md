@@ -7,6 +7,9 @@ warn: false
 order: 3
 indexLine: "6 things a recovery agent is not allowed to do, and what to do when they do them anyway."
 date: 2026-11-16
+optinH: "The Recovery Agent Complaint Kit: make the bank answer for its agents"
+optinSub: "2 printable pages: the complaint letter with RBI's rules already written in, a call log sheet, and the Ombudsman step that can award up to ₹3 lakh. Enter your email and the PDF lands in your inbox in about a minute."
+optinBullets: ["Complaining to the agent? The bank is the one that has to answer.", "What a recovery agent can never do at 7:30 am (or after 7 pm)", "The one page sheet that turns \"they keep calling\" into proof", "Where to go when it's a loan app with no bank behind it"]
 ---
 <div class="box">
 <h3>Why are we publishing this?</h3>
@@ -48,10 +51,10 @@ date: 2026-11-16
 <h2>When it goes past harassment</h2>
 <p>Threats of violence, extortion, or morphed photos of you are crimes: go to the police, and for anything online, 1930 or cybercrime.gov.in. If the "lender" is a loan app with no bank or NBFC behind it, it isn't RBI regulated at all; report it on cybercrime.gov.in and on RBI's sachet.rbi.org.in.</p>
 
+<!--optin-->
+
 <div class="cta">
-<h2>There's more than fits on one page</h2>
-<p>Want the complaint letter format and a call log sheet you can print? Email us and we'll send both, free, no obligation.</p>
-<a class="btn" href="mailto:hello@anotheryou.si?subject=RBI%20complaint%20format">Email me the letter format</a>
+<h2>Want it done for you?</h2>
 <p>Want the complaint itself written for you? There's an agent on Another You that writes the letter to your bank or NBFC, with the rule they broke and the RBI Ombudsman step after it.</p>
 <a class="btn ghost" href="https://app.anotheryou.si/a/bank-and-loan-complaint-writer">Write my complaint</a>
 </div>

@@ -8,6 +8,9 @@ order: 2
 indexLine: "What every online shopper ought to know before the next \"refund in 7 to 10 days\"."
 date: 2026-11-16
 indexTitle: "Support closed your ticket again? The law gives every shopping site one month"
+optinH: "The Refund Ladder: get your money back without one more chatbot ticket"
+optinSub: "2 printable pages: the 4 steps after the chatbot, the email to the grievance officer with blanks to fill in, and a sheet for every date and docket number. Enter your email and the PDF lands in your inbox in about a minute."
+optinBullets: ["The chatbot is the grievance officer, right? Wrong.", "Where to find the person the law says must acknowledge you within 48 hours", "The one number that ends most \"we sent it\" arguments", "How to file a consumer complaint with no lawyer, and no fee up to ₹5 lakh"]
 ---
 <div class="box">
 <h3>Why are we publishing this?</h3>
@@ -63,10 +66,10 @@ indexTitle: "Support closed your ticket again? The law gives every shopping site
 <h2>"Can I get compensation, or just my money back?"</h2>
 <p>Both. A consumer commission can order the refund, compensation for the harassment, and your costs. That's why the paper trail above matters: it's the harassment, in dates.</p>
 
+<!--optin-->
+
 <div class="cta">
-<h2>There's more than fits on one page</h2>
-<p>Want the whole escalation ladder as one printable page, with every link? Email us and we'll send it, free, no obligation.</p>
-<a class="btn" href="mailto:hello@anotheryou.si?subject=REFUND%20ladder">Email me the ladder</a>
+<h2>Want it done for you?</h2>
 <p>Want the complaint itself written for you? There's an agent on Another You that writes the grievance officer email and the next letters, from your order details.</p>
 <a class="btn ghost" href="https://app.anotheryou.si/a/consumer-complaint-writer">Write my complaint</a>
 </div>
