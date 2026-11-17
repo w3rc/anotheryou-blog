@@ -13,7 +13,7 @@ optinSub: "2 printable pages: the 4 steps after the chatbot, the email to the gr
 optinBullets: ["The chatbot is the grievance officer, right? Wrong.", "Where to find the person the law says must acknowledge you within 48 hours", "The one number that ends most \"we sent it\" arguments", "How to file a consumer complaint with no lawyer, and no fee up to ₹5 lakh"]
 agent: "consumer-complaint-writer"
 thanksH: "While you wait: get your whole fight written, not one letter"
-thanksText: "Tell it what happened. It writes the complaint to the company with a 15 day deadline, the grievance officer letter, what to paste into the National Consumer Helpline, and the e-Daakhil complaint for the right commission. New accounts get ₹100 to spend on it, enough for 3 of these, so your first one costs you nothing."
+thanksText: "Tell it what happened. It writes the complaint to the company with a 15 day deadline, the grievance officer letter, what to paste into the National Consumer Helpline, and the e-Daakhil complaint for the right commission. New accounts get ₹100 to spend on it, enough for 3 of these, so your first one costs you nothing. Your report in under 5 minutes or it's free, and if it doesn't help, report a problem from the chat within 3 days to get your Credits back."
 thanksBtn: "Write my complaint"
 ---
 <div class="box">

@@ -12,7 +12,7 @@ optinSub: "2 printable pages: the grievance letter with IRDAI's rules already wr
 optinBullets: ["A \"pre-existing disease\" rejection is final, right? Not after 60 months of continuous cover.", "What to note at the discharge desk to start the 3 hour clock", "The free route that hears claims up to ₹50 lakh", "Why \"as per policy terms\" isn't an answer, and what to ask for instead"]
 agent: "insurance-claim-helper"
 thanksH: "While you wait: get your whole fight written, not one letter"
-thanksText: "Tell it what the insurer said. It writes the grievance letter with the rule that answers their clause, the Bima Bharosa complaint, and the Insurance Ombudsman complaint, ready to send. ₹29 for all of it."
+thanksText: "Tell it what the insurer said. It writes the grievance letter with the rule that answers their clause, the Bima Bharosa complaint, and the Insurance Ombudsman complaint, ready to send. ₹29 for all of it. New accounts get ₹100 to spend on it, enough for 3 of these, so your first one costs you nothing. Your report in under 5 minutes or it's free, and if it doesn't help, report a problem from the chat within 3 days to get your Credits back."
 thanksBtn: "Write my claim complaint"
 ---
 <div class="box">
