@@ -10,6 +10,10 @@ date: 2026-11-16
 optinH: "The Health Claim Grievance Kit: fight a cut claim without a lawyer"
 optinSub: "2 printable pages: the grievance letter with IRDAI's rules already written in, the 4 step route to the Ombudsman, and the discharge desk checklist. Enter your email and the PDF lands in your inbox in about a minute."
 optinBullets: ["A \"pre-existing disease\" rejection is final, right? Not after 60 months of continuous cover.", "What to note at the discharge desk to start the 3 hour clock", "The free route that hears claims up to ₹50 lakh", "Why \"as per policy terms\" isn't an answer, and what to ask for instead"]
+agent: "insurance-claim-helper"
+thanksH: "While you wait: get your whole fight written, not one letter"
+thanksText: "Tell it what the insurer said. It writes the grievance letter with the rule that answers their clause, the Bima Bharosa complaint, and the Insurance Ombudsman complaint, ready to send. ₹29 for all of it."
+thanksBtn: "Write my claim complaint"
 ---
 <div class="box">
 <h3>Why are we publishing this?</h3>

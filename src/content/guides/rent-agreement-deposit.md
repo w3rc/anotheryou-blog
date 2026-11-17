@@ -11,6 +11,10 @@ footer: "Another You publishes these guides. General information, not legal advi
 optinH: "The Rent Deposit Kit: protect your deposit in the 10 minutes before you sign"
 optinSub: "2 printable pages: the 11 checks, 5 clauses to ask for word for word, a move-in inventory sheet and the message to send the day you hand over the keys. Enter your email and the PDF lands in your inbox in about a minute."
 optinBullets: ["\"The entire deposit shall be forfeited\" is final, right? Wrong. Here's the line to replace it with.", "What you should never let a landlord write about painting and cleaning", "The 15 minute video on moving day that wins deposit fights", "Why \"notarised\" isn't registered, and the one state where every agreement must be"]
+agent: "rental-agreement-checker"
+thanksH: "While you wait: have your agreement checked before you sign"
+thanksText: "Upload the agreement, or photos of each page. It marks every clause that can cost you your deposit, rates the risk, and writes the polite wording to fix each one, with a checklist for signing day. New accounts get ₹100 to spend on it, enough for 3 of these, so your first one costs you nothing."
+thanksBtn: "Check my agreement"
 ---
 <div class="box">
 <h3>Why are we publishing this?</h3>

@@ -10,6 +10,10 @@ date: 2026-11-16
 optinH: "The Recovery Agent Complaint Kit: make the bank answer for its agents"
 optinSub: "2 printable pages: the complaint letter with RBI's rules already written in, a call log sheet, and the Ombudsman step that can award up to ₹3 lakh. Enter your email and the PDF lands in your inbox in about a minute."
 optinBullets: ["Complaining to the agent? The bank is the one that has to answer.", "What a recovery agent can never do at 7:30 am (or after 7 pm)", "The one page sheet that turns \"they keep calling\" into proof", "Where to go when it's a loan app with no bank behind it"]
+agent: "bank-and-loan-complaint-writer"
+thanksH: "While you wait: get your whole fight written, not one letter"
+thanksText: "Tell it what happened. It names the RBI rule your lender broke, writes the complaint to your bank and the free RBI Ombudsman complaint, and works out every deadline as a real date. New accounts get ₹100 to spend on it, enough for 3 of these, so your first one costs you nothing."
+thanksBtn: "Write my complaint"
 ---
 <div class="box">
 <h3>Why are we publishing this?</h3>

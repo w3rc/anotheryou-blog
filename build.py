@@ -130,6 +130,19 @@ def build():
               '<p>While you wait, the other guides:</p>\n'
               f'<div class="list">\n{items}\n</div>')
     (DIST / "thanks").mkdir()
+    # one thank-you page per guide: the Godfather offer for that guide's agent (Sell Like Crazy). AYOU-87.
+    for g in guides:
+        if "thanksH" not in g:
+            continue
+        offer = (f'<h1>Check your inbox</h1>\n<p class="dek">Your free kit is on its way. It usually lands within a minute; if it doesn\'t, look in Promotions or Spam and drag it to your inbox, so the next one arrives too.</p>\n'
+                 f'<div class="cta">\n<h2>{g["thanksH"]}</h2>\n<p>{g["thanksText"]}</p>\n'
+                 f'<a class="btn" href="https://app.anotheryou.si/a/{g["agent"]}">{g["thanksBtn"]}</a>\n</div>\n'
+                 f'<p style="margin-top:32px">Or read another guide:</p>\n<div class="list">\n{items}\n</div>')
+        out = DIST / "thanks" / g["slug"] / "index.html"
+        out.parent.mkdir(parents=True)
+        out.write_text(utm(page("Check your inbox", "Your free kit is on its way.", offer, DEFAULT_FOOTER, '<a href="/">All guides</a>',
+                                f"{SITE}/thanks/{g['slug']}/"), "thanks-" + g["slug"]).replace(
+                                "<meta name=\"description\"", "<meta name=\"robots\" content=\"noindex\">\n<meta name=\"description\""))
     (DIST / "thanks" / "index.html").write_text(page("Check your inbox", "Your free kit is on its way.", thanks,
                                                      DEFAULT_FOOTER, '<a href="/">All guides</a>', SITE + "/thanks/").replace(
                                                      "<meta name=\"description\"", "<meta name=\"robots\" content=\"noindex\">\n<meta name=\"description\""))
