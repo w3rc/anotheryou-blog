@@ -122,7 +122,7 @@ def build():
     main = ('<h1>What everybody ought to know before it costs them money</h1>\n'
             '<p class="dek">Free, plain guides. No sign up to read them, nothing to buy at the end.</p>\n'
             f'<div class="list">\n{items}\n</div>')
-    (DIST / "index.html").write_text(utm(page("Another You Guides", "Plain guides for the moments that cost you money: cyber fraud, rent deposits, stuck refunds, recovery agents, unpaid invoices, hospital claims.",
+    (DIST / "index.html").write_text(utm(page("Another You Guides", "Plain guides for the moments that cost you money: cyber fraud, bank complaints, rent deposits, stuck refunds, recovery agents, unpaid invoices, hospital claims.",
                                           main, "Another You publishes these guides. General information, not legal advice.",
                                           '<a href="https://app.anotheryou.si">app.anotheryou.si</a>', SITE + "/"), "home"))
 
