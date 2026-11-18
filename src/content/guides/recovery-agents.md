@@ -12,7 +12,7 @@ optinSub: "2 printable pages: the complaint letter with RBI's rules already writ
 optinBullets: ["Complaining to the agent? The bank is the one that has to answer.", "What a recovery agent can never do at 7:30 am (or after 7 pm)", "The one page sheet that turns \"they keep calling\" into proof", "Where to go when it's a loan app with no bank behind it"]
 agent: "bank-and-loan-complaint-writer"
 thanksH: "While you wait: get your whole fight written, not one letter"
-thanksText: "Tell it what happened. It names the RBI rule your lender broke, writes the complaint to your bank and the free RBI Ombudsman complaint, and works out every deadline as a real date. New accounts get ₹100 to spend on it within 7 days, enough for 3 of these, so your first one costs you nothing. Your report in under 5 minutes or it's free, and if it doesn't help, report a problem from the chat within 3 days to get your Credits back."
+thanksText: "Tell it what happened. It names the RBI rule your lender broke, writes the complaint to your bank and the free RBI Ombudsman complaint, and works out every deadline as a real date. New accounts get ₹100 to spend on it within 7 days, enough for 3 of these, so your first one costs you nothing. Under 5 minutes or it's free, and useful or it's free: if it doesn't help, report a problem from the chat within 3 days, get your Credits back and keep the document."
 thanksBtn: "Write my complaint"
 ---
 <div class="box">
@@ -60,13 +60,13 @@ thanksBtn: "Write my complaint"
 <div class="cta">
 <h2>Want it done for you?</h2>
 <p>Want the complaint itself written for you? There's an agent on Another You that writes the letter to your bank or NBFC, with the rule they broke and the RBI Ombudsman step after it.</p>
-<p>Online legal services quote ₹1,499 to ₹2,499 to draft a single legal notice. This writes the whole set for ₹29. A new account's first one is free. Your report in under 5 minutes or it's free, and if it doesn't help, report it within 3 days to get your Credits back.</p>
+<p>One online legal service we checked quotes ₹1,499 to ₹2,499 for a single legal notice and guarantees it in 2 days. This writes the whole set for ₹29, in under 5 minutes or it's free. Useful or it's free: if it doesn't help, report it within 3 days, get your Credits back and keep the document. A new account's first one is free.</p>
 <a class="btn ghost" href="https://app.anotheryou.si/a/bank-and-loan-complaint-writer">Write my complaint</a>
 </div>
 
 <h3>Sources, checked 16 November 2026</h3>
 <ul class="sources">
-<li>Price of one legal notice from an online legal service: <a href="https://vakilsearch.com/legal-notice">Vakilsearch</a> FAQ, "₹1499 to ₹2499", read 18 November 2026.</li>
+<li>Price of one legal notice from an online legal service: <a href="https://vakilsearch.com/legal-notice">Vakilsearch</a> FAQ, "₹1499 to ₹2499" and "Guaranteed 2-day delivery or 100% money-back, T&amp;C apply", read 18 November 2026.</li>
 <li><a href="https://www.rbi.org.in/scripts/BS_ViewMasDirections.aspx?id=12942">Reserve Bank of India (Non-Banking Financial Companies, Responsible Business Conduct) Directions, 2025</a>, paragraphs 96 to 100.</li>
 <li>Reserve Bank of India (Commercial Banks, Responsible Business Conduct) Directions, 2025, Chapter VIII section K (recovery agents), paragraphs 442 to 453.</li>
 <li>Reserve Bank Integrated Ombudsman Scheme, 2026 (in force from 1 July 2026); <a href="https://cms.rbi.org.in">cms.rbi.org.in</a>.</li>

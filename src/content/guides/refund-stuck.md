@@ -13,7 +13,7 @@ optinSub: "2 printable pages: the 4 steps after the chatbot, the email to the gr
 optinBullets: ["The chatbot is the grievance officer, right? Wrong.", "Where to find the person the law says must acknowledge you within 48 hours", "The one number that ends most \"we sent it\" arguments", "How to file a consumer complaint with no lawyer, and no fee up to ₹5 lakh"]
 agent: "consumer-complaint-writer"
 thanksH: "While you wait: get your whole fight written, not one letter"
-thanksText: "Tell it what happened. It writes the complaint to the company with a 15 day deadline, the grievance officer letter, what to paste into the National Consumer Helpline, and the e-Daakhil complaint for the right commission. New accounts get ₹100 to spend on it within 7 days, enough for 3 of these, so your first one costs you nothing. Your report in under 5 minutes or it's free, and if it doesn't help, report a problem from the chat within 3 days to get your Credits back."
+thanksText: "Tell it what happened. It writes the complaint to the company with a 15 day deadline, the grievance officer letter, what to paste into the National Consumer Helpline, and the e-Daakhil complaint for the right commission. New accounts get ₹100 to spend on it within 7 days, enough for 3 of these, so your first one costs you nothing. Under 5 minutes or it's free, and useful or it's free: if it doesn't help, report a problem from the chat within 3 days, get your Credits back and keep the document."
 thanksBtn: "Write my complaint"
 ---
 <div class="box">
@@ -75,13 +75,13 @@ thanksBtn: "Write my complaint"
 <div class="cta">
 <h2>Want it done for you?</h2>
 <p>Want the complaint itself written for you? There's an agent on Another You that writes the grievance officer email and the next letters, from your order details.</p>
-<p>Online legal services quote ₹1,499 to ₹2,499 to draft a single legal notice. This writes the whole set for ₹29. A new account's first one is free. Your report in under 5 minutes or it's free, and if it doesn't help, report it within 3 days to get your Credits back.</p>
+<p>One online legal service we checked quotes ₹1,499 to ₹2,499 for a single legal notice and guarantees it in 2 days. This writes the whole set for ₹29, in under 5 minutes or it's free. Useful or it's free: if it doesn't help, report it within 3 days, get your Credits back and keep the document. A new account's first one is free.</p>
 <a class="btn ghost" href="https://app.anotheryou.si/a/consumer-complaint-writer">Write my complaint</a>
 </div>
 
 <h3>Sources, checked 16 November 2026</h3>
 <ul class="sources">
-<li>Price of one legal notice from an online legal service: <a href="https://vakilsearch.com/legal-notice">Vakilsearch</a> FAQ, "₹1499 to ₹2499", read 18 November 2026.</li>
+<li>Price of one legal notice from an online legal service: <a href="https://vakilsearch.com/legal-notice">Vakilsearch</a> FAQ, "₹1499 to ₹2499" and "Guaranteed 2-day delivery or 100% money-back, T&amp;C apply", read 18 November 2026.</li>
 <li>Consumer Protection (E-Commerce) Rules, 2020 (grievance officer, 48 hours, one month); summary by <a href="https://www.indialaw.in/guides/civil/consumer-protection-e-commerce-rules/">IndiaLaw</a>.</li>
 <li>Consumer Protection Act, 2019; Consumer Protection (Jurisdiction of the District Commission, the State Commission and the National Commission) Rules, 2021 (District Commission up to ₹50 lakh); fee nil up to ₹5 lakh; <a href="https://edaakhil.nic.in">e-Daakhil</a>.</li>
 <li><a href="https://consumerhelpline.gov.in">National Consumer Helpline</a>, 1915.</li>

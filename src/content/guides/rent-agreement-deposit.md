@@ -13,7 +13,7 @@ optinSub: "2 printable pages: the 11 checks, 5 clauses to ask for word for word,
 optinBullets: ["\"The entire deposit shall be forfeited\" is final, right? Wrong. Here's the line to replace it with.", "What you should never let a landlord write about painting and cleaning", "The 15 minute video on moving day that wins deposit fights", "Why \"notarised\" isn't registered, and the one state where every agreement must be"]
 agent: "rental-agreement-checker"
 thanksH: "While you wait: have your agreement checked before you sign"
-thanksText: "Upload the agreement, or photos of each page. It marks every clause that can cost you your deposit, rates the risk, and writes the polite wording to fix each one, with a checklist for signing day. New accounts get ₹100 to spend on it within 7 days, enough for 3 of these, so your first one costs you nothing. Your report in under 5 minutes or it's free, and if it doesn't help, report a problem from the chat within 3 days to get your Credits back."
+thanksText: "Upload the agreement, or photos of each page. It marks every clause that can cost you your deposit, rates the risk, and writes the polite wording to fix each one, with a checklist for signing day. New accounts get ₹100 to spend on it within 7 days, enough for 3 of these, so your first one costs you nothing. Under 5 minutes or it's free, and useful or it's free: if it doesn't help, report a problem from the chat within 3 days, get your Credits back and keep the document."
 thanksBtn: "Check my agreement"
 ---
 <div class="box">
@@ -74,7 +74,7 @@ thanksBtn: "Check my agreement"
 <div class="cta">
 <h2>Want it done for you?</h2>
 <p>Already holding the draft agreement? There's an agent on Another You that reads it clause by clause and marks the risky lines, with the wording to ask for instead.</p>
-<p>A new account's first one is free. Your report in under 5 minutes or it's free, and if it doesn't help, report it within 3 days to get your Credits back.</p>
+<p>A new account's first one is free. Under 5 minutes or it's free, and useful or it's free: if it doesn't help, report it within 3 days, get your Credits back and keep the document.</p>
 <a class="btn ghost" href="https://app.anotheryou.si/a/rental-agreement-checker">Check my agreement</a>
 </div>
 

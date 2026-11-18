@@ -12,7 +12,7 @@ optinSub: "2 printable pages: the grievance letter with IRDAI's rules already wr
 optinBullets: ["A \"pre-existing disease\" rejection is final, right? Not after 60 months of continuous cover.", "What to note at the discharge desk to start the 3 hour clock", "The free route that hears claims up to ₹50 lakh", "Why \"as per policy terms\" isn't an answer, and what to ask for instead"]
 agent: "insurance-claim-helper"
 thanksH: "While you wait: get your whole fight written, not one letter"
-thanksText: "Tell it what the insurer said. It writes the grievance letter with the rule that answers their clause, the Bima Bharosa complaint, and the Insurance Ombudsman complaint, ready to send. ₹29 for all of it. New accounts get ₹100 to spend on it within 7 days, enough for 3 of these, so your first one costs you nothing. Your report in under 5 minutes or it's free, and if it doesn't help, report a problem from the chat within 3 days to get your Credits back."
+thanksText: "Tell it what the insurer said. It writes the grievance letter with the rule that answers their clause, the Bima Bharosa complaint, and the Insurance Ombudsman complaint, ready to send. ₹29 for all of it. New accounts get ₹100 to spend on it within 7 days, enough for 3 of these, so your first one costs you nothing. Under 5 minutes or it's free, and useful or it's free: if it doesn't help, report a problem from the chat within 3 days, get your Credits back and keep the document."
 thanksBtn: "Write my claim complaint"
 ---
 <div class="box">
@@ -55,13 +55,13 @@ thanksBtn: "Write my claim complaint"
 <div class="cta">
 <h2>Want it done for you?</h2>
 <p>Got the rejection letter in hand? There's an agent on Another You that reads it, tells you how strong the case looks against the rules, and writes the grievance letter and the Ombudsman complaint.</p>
-<p>Online legal services quote ₹1,499 to ₹2,499 to draft a single legal notice. This writes the whole set for ₹29. A new account's first one is free. Your report in under 5 minutes or it's free, and if it doesn't help, report it within 3 days to get your Credits back.</p>
+<p>One online legal service we checked quotes ₹1,499 to ₹2,499 for a single legal notice and guarantees it in 2 days. This writes the whole set for ₹29, in under 5 minutes or it's free. Useful or it's free: if it doesn't help, report it within 3 days, get your Credits back and keep the document. A new account's first one is free.</p>
 <a class="btn ghost" href="https://app.anotheryou.si/a/insurance-claim-helper">Write my claim complaint</a>
 </div>
 
 <h3>Sources, checked 16 November 2026</h3>
 <ul class="sources">
-<li>Price of one legal notice from an online legal service: <a href="https://vakilsearch.com/legal-notice">Vakilsearch</a> FAQ, "₹1499 to ₹2499", read 18 November 2026.</li>
+<li>Price of one legal notice from an online legal service: <a href="https://vakilsearch.com/legal-notice">Vakilsearch</a> FAQ, "₹1499 to ₹2499" and "Guaranteed 2-day delivery or 100% money-back, T&amp;C apply", read 18 November 2026.</li>
 <li>IRDAI Master Circular on Health Insurance Business, 29 May 2024, IRDAI/HLT/CIR/PRO/84/5/2024 (cashless within 1 hour, discharge within 3 hours, delay charges borne by the insurer from its shareholders' fund).</li>
 <li>IRDAI (Insurance Products) Regulations, 2024 and the health master circular: pre-existing disease waiting period at most 3 years; 60 month moratorium.</li>
 <li>Insurance Ombudsman Rules, 2017; <a href="https://www.cioins.co.in">Council for Insurance Ombudsmen</a>; <a href="https://bimabharosa.irdai.gov.in">Bima Bharosa</a>.</li>
