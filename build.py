@@ -18,6 +18,16 @@ POSTHOG = ("<script>!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[]
            "loaded:function(ph){ph.register({site:\"blog\"})}});</script>\n")
 
 
+# Carry where the reader came from (an Instagram or Facebook post's utm_source and utm_campaign) onto every app link as
+# utm_content, e.g. "instagram.ombudsman-90", and onto the opt-in's utm field. sessionStorage keeps it across the
+# opt-in's redirect to /thanks/. ponytail: first tag in the tab wins; nothing for readers who arrive untagged.
+CARRY = ("<script>(function(){var q=new URLSearchParams(location.search),s=q.get('utm_source'),t;"
+         "try{if(s&&s!=='blog'){t=(s+'.'+(q.get('utm_campaign')||'')).replace(/[^\\w.-]/g,'').slice(0,60);"
+         "sessionStorage.setItem('ay_from',t)}else t=sessionStorage.getItem('ay_from')}catch(e){}"
+         "if(!t)return;document.querySelectorAll('a[href^=\"https://app.anotheryou.si\"]').forEach(function(a){"
+         "var u=new URL(a.href);u.searchParams.set('utm_content',t);a.href=u});"
+         "var i=document.querySelector('input[name=utm]');if(i&&i.value==='blog')i.value='blog.'+t})();</script>\n")
+
 def utm(page_html, campaign):
     """Tag every link into the app, so PostHog's utm_* properties say which guide sent the visitor."""
     return re.sub(r'href="(https://app\.anotheryou\.si[^"?]*)"',
@@ -99,7 +109,7 @@ def page(title, description, main, footer_text, footer_link, url, image=None):
 {main}
 </main>
 <footer class="site"><div class="bar"><span>{footer_text}</span>{footer_link}<a href="https://app.anotheryou.si/privacy">Privacy</a></div></footer>
-</body>
+{CARRY}</body>
 </html>
 """
 
