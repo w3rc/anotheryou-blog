@@ -7,9 +7,9 @@ warn: false
 order: 8
 indexLine: "One page or two, which section first, the bullet formula Google's careers team gives candidates, and what to leave off."
 date: 2026-11-18
-_optinH: "The Resume Format Kit: a one page layout and the bullet rewrite sheet"
-_optinSub: "2 printable pages: a single column, one page resume layout to fill in, a sheet that turns 6 duty lines into Google style results, and the 12 point check to run before you hit send. Enter your email and the PDF lands in your inbox in about a minute."
-_optinBullets: ["The one line formula that turns \"responsible for\" into a result", "When a second page helps you, and when it costs you", "7 things Indian templates add that you can delete today", "The 30 second paste test that shows what a screening system sees"]
+optinH: "The Resume Format Kit: a one page layout and the bullet rewrite sheet"
+optinSub: "2 printable pages: a single column, one page resume layout to fill in, a sheet that turns 6 duty lines into Google style results, and the 12 point check to run before you hit send. Enter your email and the PDF lands in your inbox in about a minute."
+optinBullets: ["The one line formula that turns \"responsible for\" into a result", "When a second page helps you, and when it costs you", "7 things Indian templates add that you can delete today", "The 30 second paste test that shows what a screening system sees"]
 agent: "resume-reviewer"
 thanksH: "While you wait: get your own resume reviewed against the job you want"
 thanksText: "Upload your resume and the job you're applying for. It tells you what to fix first, rewrites your weak lines into results, lists the keywords from the job post you're missing, and checks your layout for screening systems. New accounts get ₹100 to spend on it within 7 days, enough for 3 reviews, so your first one costs you nothing. Under 5 minutes or it's free, and useful or it's free: if it doesn't help, report a problem from the chat within 3 days, get your Credits back and keep the review."

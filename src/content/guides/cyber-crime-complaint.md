@@ -7,9 +7,9 @@ warn: true
 order: 6
 indexLine: "Money gone in a UPI or card fraud? The first hour, the RBI rule that decides who pays, and how money on hold comes back."
 date: 2026-11-18
-_optinH: "The Cyber Fraud Kit: the first hour on one page, and the letter your bank has to answer"
-_optinSub: "2 printable pages: the first hour checklist, the fraud report letter to your bank with RBI's rules already written in, and a sheet for every number you'll be asked for later. Enter your email and the PDF lands in your inbox in about a minute."
-_optinBullets: ["Why the date and time you tell your bank matters more than anything you say on the phone", "The 14 digit number you'll be asked for at every step after this (and where it comes from)", "What \"shadow amount marked\" means, and when it becomes money you can spend", "The one phone call that's always a second scam"]
+optinH: "The Cyber Fraud Kit: the first hour on one page, and the letter your bank has to answer"
+optinSub: "2 printable pages: the first hour checklist, the fraud report letter to your bank with RBI's rules already written in, and a sheet for every number you'll be asked for later. Enter your email and the PDF lands in your inbox in about a minute."
+optinBullets: ["Why the date and time you tell your bank matters more than anything you say on the phone", "The 14 digit number you'll be asked for at every step after this (and where it comes from)", "What \"shadow amount marked\" means, and when it becomes money you can spend", "The one phone call that's always a second scam"]
 agent: "cyber-fraud-complaint-helper"
 thanksH: "While you wait: get every complaint written, with your real deadlines"
 thanksText: "Tell it what happened. It works out which RBI rule covers your case, writes the letter to your bank, the cybercrime.gov.in complaint, the FIR request and the RBI Ombudsman complaint, and turns every deadline into a real date. Your first kit is free on every account, and new accounts also get ₹100 to spend within 7 days. Under 5 minutes or it's free, and useful or it's free: if it doesn't help, report a problem from the chat within 3 days, get your Credits back and keep the document. It writes your complaints; it can't get money back by itself, and nobody honest can promise that."

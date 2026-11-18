@@ -7,9 +7,9 @@ warn: false
 order: 7
 indexLine: "Bank or lender ignoring you? The free RBI Ombudsman route, the new 90 day deadline, and 5 rules that make a bank pay you by the day."
 date: 2026-11-18
-_optinH: "The RBI Ombudsman Kit: the letter, the dates and the 5 per day penalties on 2 pages"
-_optinSub: "2 printable pages: the complaint letter to your bank with the right lines already in, a table that turns your dates into real deadlines, and everything the Ombudsman form asks for. Enter your email and the PDF lands in your inbox in about a minute."
-_optinBullets: ["The 30 day rule that decides whether RBI will even look at your complaint", "Why filing a month too late now gets your complaint rejected", "5 cases where the bank owes you ₹100 to ₹5,000 for every day it's late", "Who you should never pay to file it for you"]
+optinH: "The RBI Ombudsman Kit: the letter, the dates and the 5 per day penalties on 2 pages"
+optinSub: "2 printable pages: the complaint letter to your bank with the right lines already in, a table that turns your dates into real deadlines, and everything the Ombudsman form asks for. Enter your email and the PDF lands in your inbox in about a minute."
+optinBullets: ["The 30 day rule that decides whether RBI will even look at your complaint", "Why filing a month too late now gets your complaint rejected", "5 cases where the bank owes you ₹100 to ₹5,000 for every day it's late", "Who you should never pay to file it for you"]
 agent: "bank-and-loan-complaint-writer"
 thanksH: "While you wait: get your bank complaint and the Ombudsman complaint written"
 thanksText: "Tell it what happened. It finds the RBI rule your bank or lender broke, writes the complaint to them and the RBI Ombudsman complaint after it, and works out every deadline as a real date. New accounts get ₹100 to spend on it within 7 days, enough for 3 of these, so your first one costs you nothing. Under 5 minutes or it's free, and useful or it's free: if it doesn't help, report a problem from the chat within 3 days, get your Credits back and keep the document."
