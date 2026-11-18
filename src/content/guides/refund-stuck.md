@@ -75,11 +75,13 @@ thanksBtn: "Write my complaint"
 <div class="cta">
 <h2>Want it done for you?</h2>
 <p>Want the complaint itself written for you? There's an agent on Another You that writes the grievance officer email and the next letters, from your order details.</p>
+<p>Online legal services quote ₹1,499 to ₹2,499 to draft a single legal notice. This writes the whole set for ₹29. A new account's first one is free. Your report in under 5 minutes or it's free, and if it doesn't help, report it within 3 days to get your Credits back.</p>
 <a class="btn ghost" href="https://app.anotheryou.si/a/consumer-complaint-writer">Write my complaint</a>
 </div>
 
 <h3>Sources, checked 16 November 2026</h3>
 <ul class="sources">
+<li>Price of one legal notice from an online legal service: <a href="https://vakilsearch.com/legal-notice">Vakilsearch</a> FAQ, "₹1499 to ₹2499", read 18 November 2026.</li>
 <li>Consumer Protection (E-Commerce) Rules, 2020 (grievance officer, 48 hours, one month); summary by <a href="https://www.indialaw.in/guides/civil/consumer-protection-e-commerce-rules/">IndiaLaw</a>.</li>
 <li>Consumer Protection Act, 2019; Consumer Protection (Jurisdiction of the District Commission, the State Commission and the National Commission) Rules, 2021 (District Commission up to ₹50 lakh); fee nil up to ₹5 lakh; <a href="https://edaakhil.nic.in">e-Daakhil</a>.</li>
 <li><a href="https://consumerhelpline.gov.in">National Consumer Helpline</a>, 1915.</li>

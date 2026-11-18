@@ -55,11 +55,13 @@ thanksBtn: "Write my claim complaint"
 <div class="cta">
 <h2>Want it done for you?</h2>
 <p>Got the rejection letter in hand? There's an agent on Another You that reads it, tells you how strong the case looks against the rules, and writes the grievance letter and the Ombudsman complaint.</p>
+<p>Online legal services quote ₹1,499 to ₹2,499 to draft a single legal notice. This writes the whole set for ₹29. A new account's first one is free. Your report in under 5 minutes or it's free, and if it doesn't help, report it within 3 days to get your Credits back.</p>
 <a class="btn ghost" href="https://app.anotheryou.si/a/insurance-claim-helper">Write my claim complaint</a>
 </div>
 
 <h3>Sources, checked 16 November 2026</h3>
 <ul class="sources">
+<li>Price of one legal notice from an online legal service: <a href="https://vakilsearch.com/legal-notice">Vakilsearch</a> FAQ, "₹1499 to ₹2499", read 18 November 2026.</li>
 <li>IRDAI Master Circular on Health Insurance Business, 29 May 2024, IRDAI/HLT/CIR/PRO/84/5/2024 (cashless within 1 hour, discharge within 3 hours, delay charges borne by the insurer from its shareholders' fund).</li>
 <li>IRDAI (Insurance Products) Regulations, 2024 and the health master circular: pre-existing disease waiting period at most 3 years; 60 month moratorium.</li>
 <li>Insurance Ombudsman Rules, 2017; <a href="https://www.cioins.co.in">Council for Insurance Ombudsmen</a>; <a href="https://bimabharosa.irdai.gov.in">Bima Bharosa</a>.</li>

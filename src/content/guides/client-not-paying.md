@@ -61,6 +61,7 @@ thanksBtn: "Check my contract"
 <div class="cta">
 <h2>Want it done for you?</h2>
 <p>Got a contract in your inbox right now? There's an agent on Another You that reads it before you sign and marks the payment, acceptance and IP lines that will hurt you, with the wording to ask for instead.</p>
+<p>A new account's first one is free. Your report in under 5 minutes or it's free, and if it doesn't help, report it within 3 days to get your Credits back.</p>
 <a class="btn ghost" href="https://app.anotheryou.si/a/freelance-contract-checker">Check my contract</a>
 </div>
 

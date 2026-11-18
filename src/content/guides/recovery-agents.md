@@ -60,11 +60,13 @@ thanksBtn: "Write my complaint"
 <div class="cta">
 <h2>Want it done for you?</h2>
 <p>Want the complaint itself written for you? There's an agent on Another You that writes the letter to your bank or NBFC, with the rule they broke and the RBI Ombudsman step after it.</p>
+<p>Online legal services quote ₹1,499 to ₹2,499 to draft a single legal notice. This writes the whole set for ₹29. A new account's first one is free. Your report in under 5 minutes or it's free, and if it doesn't help, report it within 3 days to get your Credits back.</p>
 <a class="btn ghost" href="https://app.anotheryou.si/a/bank-and-loan-complaint-writer">Write my complaint</a>
 </div>
 
 <h3>Sources, checked 16 November 2026</h3>
 <ul class="sources">
+<li>Price of one legal notice from an online legal service: <a href="https://vakilsearch.com/legal-notice">Vakilsearch</a> FAQ, "₹1499 to ₹2499", read 18 November 2026.</li>
 <li><a href="https://www.rbi.org.in/scripts/BS_ViewMasDirections.aspx?id=12942">Reserve Bank of India (Non-Banking Financial Companies, Responsible Business Conduct) Directions, 2025</a>, paragraphs 96 to 100.</li>
 <li>Reserve Bank of India (Commercial Banks, Responsible Business Conduct) Directions, 2025, Chapter VIII section K (recovery agents), paragraphs 442 to 453.</li>
 <li>Reserve Bank Integrated Ombudsman Scheme, 2026 (in force from 1 July 2026); <a href="https://cms.rbi.org.in">cms.rbi.org.in</a>.</li>

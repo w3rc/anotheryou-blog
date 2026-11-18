@@ -74,6 +74,7 @@ thanksBtn: "Check my agreement"
 <div class="cta">
 <h2>Want it done for you?</h2>
 <p>Already holding the draft agreement? There's an agent on Another You that reads it clause by clause and marks the risky lines, with the wording to ask for instead.</p>
+<p>A new account's first one is free. Your report in under 5 minutes or it's free, and if it doesn't help, report it within 3 days to get your Credits back.</p>
 <a class="btn ghost" href="https://app.anotheryou.si/a/rental-agreement-checker">Check my agreement</a>
 </div>
 
