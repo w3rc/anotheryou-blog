@@ -13,7 +13,7 @@ optinSub: "2 printable pages: the 11 checks, 5 clauses to ask for word for word,
 optinBullets: ["\"The entire deposit shall be forfeited\" is final, right? Wrong. Here's the line to replace it with.", "What you should never let a landlord write about painting and cleaning", "The 15 minute video on moving day that wins deposit fights", "Why \"notarised\" isn't registered, and the one state where every agreement must be"]
 agent: "rental-agreement-checker"
 thanksH: "While you wait: have your agreement checked before you sign"
-thanksText: "Upload the agreement, or photos of each page. It marks every clause that can cost you your deposit, rates the risk, and writes the polite wording to fix each one, with a checklist for signing day. New accounts get ₹100 to spend on it, enough for 3 of these, so your first one costs you nothing. Your report in under 5 minutes or it's free, and if it doesn't help, report a problem from the chat within 3 days to get your Credits back."
+thanksText: "Upload the agreement, or photos of each page. It marks every clause that can cost you your deposit, rates the risk, and writes the polite wording to fix each one, with a checklist for signing day. New accounts get ₹100 to spend on it within 7 days, enough for 3 of these, so your first one costs you nothing. Your report in under 5 minutes or it's free, and if it doesn't help, report a problem from the chat within 3 days to get your Credits back."
 thanksBtn: "Check my agreement"
 ---
 <div class="box">

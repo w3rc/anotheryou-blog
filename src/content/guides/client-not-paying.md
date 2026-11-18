@@ -12,7 +12,7 @@ optinSub: "2 printable pages: 3 reminder emails from polite to final, the tax li
 optinBullets: ["\"Just following up\" works, right? Wrong. Here's the line finance teams move for.", "What to send when the invoice is 60 days late", "How a \"net 90\" contract can still owe you interest", "The free registration to do before the next contract, not after"]
 agent: "freelance-contract-checker"
 thanksH: "While you wait: check the next contract before you sign it"
-thanksText: "Upload the contract. It finds the clauses that let a client pay late, own your old work or walk away, and writes the replacement wording, ready to paste into an email to the client. New accounts get ₹100 to spend on it, enough for 3 of these, so your first one costs you nothing. Your report in under 5 minutes or it's free, and if it doesn't help, report a problem from the chat within 3 days to get your Credits back."
+thanksText: "Upload the contract. It finds the clauses that let a client pay late, own your old work or walk away, and writes the replacement wording, ready to paste into an email to the client. New accounts get ₹100 to spend on it within 7 days, enough for 3 of these, so your first one costs you nothing. Your report in under 5 minutes or it's free, and if it doesn't help, report a problem from the chat within 3 days to get your Credits back."
 thanksBtn: "Check my contract"
 ---
 <div class="box">
