@@ -11,8 +11,8 @@ optinH: "The Unpaid Invoice Playbook: 3 emails that chase an invoice without a s
 optinSub: "2 printable pages: 3 reminder emails from polite to final, the tax line that moves finance teams, and 3 clauses for your next contract. Enter your email and the PDF lands in your inbox in about a minute."
 optinBullets: ["\"Just following up\" works, right? Wrong. Here's the line finance teams move for.", "What to send when the invoice is 60 days late", "How a \"net 90\" contract can still owe you interest", "The free registration to do before the next contract, not after"]
 agent: "freelance-contract-checker"
-thanksH: "While you wait: check the next contract before you sign it"
-thanksText: "Upload the contract. It finds the clauses that let a client pay late, own your old work or walk away, and writes the replacement wording, ready to paste into an email to the client. New accounts get ₹100 to spend on it within 7 days, enough for 3 of these, so your first one costs you nothing. Under 5 minutes or it's free, and useful or it's free: if it doesn't help, report a problem from the chat within 3 days, get your Credits back and keep the document."
+thanksH: "While you wait: turn your contract into a payment reminder"
+thanksText: "Upload the contract. It finds the clauses that let a client pay late, own your old work or walk away, and writes the replacement wording, ready to paste into an email to the client. Every report also ends with a payment reminder that quotes your contract's own payment clause, with blanks for the invoice number, amount and dates. Registered on Udyam, with an Indian client? It adds the MSMED Act paragraph: the 45 day limit, compound interest at three times the RBI bank rate, and where to complain, with the interest left for you to fill in. New accounts get ₹100 to spend on it within 7 days, enough for 3 of these, so your first one costs you nothing. Under 5 minutes or it's free, and useful or it's free: if it doesn't help, report a problem from the chat within 3 days, get your Credits back and keep the document."
 thanksBtn: "Check my contract"
 thanksPS: "Every clause is easiest to change before you sign. Your ₹100 lasts 7 days from sign-up."
 ---
@@ -62,6 +62,7 @@ thanksPS: "Every clause is easiest to change before you sign. Your ₹100 lasts 
 <div class="cta">
 <h2>Want it done for you?</h2>
 <p>Got a contract in your inbox right now? There's an agent on Another You that reads it before you sign and marks the payment, acceptance and IP lines that will hurt you, with the wording to ask for instead.</p>
+<p>Already waiting on a payment? Every report ends with a reminder that quotes your contract's own payment clause. If you're on Udyam and the client is in India, it adds the MSMED Act paragraph, with the 45 day limit, the interest rule and the complaint route.</p>
 <p>A new account's first one is free. Under 5 minutes or it's free, and useful or it's free: if it doesn't help, report it within 3 days, get your Credits back and keep the document.</p>
 <a class="btn ghost" href="https://app.anotheryou.si/a/freelance-contract-checker">Check my contract</a>
 </div>
