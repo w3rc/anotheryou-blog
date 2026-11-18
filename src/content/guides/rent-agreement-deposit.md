@@ -15,6 +15,7 @@ agent: "rental-agreement-checker"
 thanksH: "While you wait: have your agreement checked before you sign"
 thanksText: "Upload the agreement, or photos of each page. It marks every clause that can cost you your deposit, rates the risk, and writes the polite wording to fix each one, with a checklist for signing day. New accounts get ₹100 to spend on it within 7 days, enough for 3 of these, so your first one costs you nothing. Under 5 minutes or it's free, and useful or it's free: if it doesn't help, report a problem from the chat within 3 days, get your Credits back and keep the document."
 thanksBtn: "Check my agreement"
+thanksPS: "Once it's signed, the clause is yours to live with for the whole stay. Your ₹100 lasts 7 days from sign-up."
 ---
 <div class="box">
 <h3>Why are we publishing this?</h3>

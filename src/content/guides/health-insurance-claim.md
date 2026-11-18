@@ -14,6 +14,7 @@ agent: "insurance-claim-helper"
 thanksH: "While you wait: get your whole fight written, not one letter"
 thanksText: "Tell it what the insurer said. It writes the grievance letter with the rule that answers their clause, the Bima Bharosa complaint, and the Insurance Ombudsman complaint, ready to send. ₹29 for all of it. New accounts get ₹100 to spend on it within 7 days, enough for 3 of these, so your first one costs you nothing. Under 5 minutes or it's free, and useful or it's free: if it doesn't help, report a problem from the chat within 3 days, get your Credits back and keep the document."
 thanksBtn: "Write my claim complaint"
+thanksPS: "You have one year from the insurer's final reply to go to the Ombudsman, and it starts with the grievance letter. Your ₹100 lasts 7 days from sign-up."
 ---
 <div class="box">
 <h3>Why are we publishing this?</h3>

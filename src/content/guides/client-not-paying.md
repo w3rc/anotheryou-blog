@@ -14,6 +14,7 @@ agent: "freelance-contract-checker"
 thanksH: "While you wait: check the next contract before you sign it"
 thanksText: "Upload the contract. It finds the clauses that let a client pay late, own your old work or walk away, and writes the replacement wording, ready to paste into an email to the client. New accounts get ₹100 to spend on it within 7 days, enough for 3 of these, so your first one costs you nothing. Under 5 minutes or it's free, and useful or it's free: if it doesn't help, report a problem from the chat within 3 days, get your Credits back and keep the document."
 thanksBtn: "Check my contract"
+thanksPS: "Every clause is easiest to change before you sign. Your ₹100 lasts 7 days from sign-up."
 ---
 <div class="box">
 <h3>Why are we publishing this?</h3>

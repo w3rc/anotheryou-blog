@@ -14,6 +14,7 @@ agent: "bank-and-loan-complaint-writer"
 thanksH: "While you wait: get your whole fight written, not one letter"
 thanksText: "Tell it what happened. It names the RBI rule your lender broke, writes the complaint to your bank and the free RBI Ombudsman complaint, and works out every deadline as a real date. New accounts get ₹100 to spend on it within 7 days, enough for 3 of these, so your first one costs you nothing. Under 5 minutes or it's free, and useful or it's free: if it doesn't help, report a problem from the chat within 3 days, get your Credits back and keep the document."
 thanksBtn: "Write my complaint"
+thanksPS: "The RBI Ombudsman route opens 30 days after you complain to your bank, and that clock starts only when you send it. Your ₹100 lasts 7 days from sign-up."
 ---
 <div class="box">
 <h3>Why are we publishing this?</h3>
