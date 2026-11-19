@@ -12,9 +12,9 @@ optinSub: "2 printable pages: the first hour checklist, the fraud report letter 
 optinBullets: ["Why the date and time you tell your bank matters more than anything you say on the phone", "The 14 digit number you'll be asked for at every step after this (and where it comes from)", "What \"shadow amount marked\" means, and when it becomes money you can spend", "The one phone call that's always a second scam"]
 agent: "cyber-fraud-complaint-helper"
 thanksH: "While you wait: get every complaint written, with your real deadlines"
-thanksText: "Tell it what happened. It works out which RBI rule covers your case, writes the letter to your bank, the cybercrime.gov.in complaint, the FIR request and the RBI Ombudsman complaint, and turns every deadline into a real date. Your first kit is free on every account, and new accounts also get ₹100 to spend within 7 days. Under 5 minutes or it's free, and useful or it's free: if it doesn't help, report a problem from the chat within 3 days, get your Credits back and keep the document. It writes your complaints; it can't get money back by itself, and nobody honest can promise that."
+thanksText: "Tell it what happened. It works out which RBI rule covers your case, writes the letter to your bank, the cybercrime.gov.in complaint, the FIR request and the RBI Ombudsman complaint, and turns every deadline into a real date. Your first kit is free on every account, and new accounts also get their first 100 Credits to spend within 7 days. Under 5 minutes or it's free, and useful or it's free: if it doesn't help, report a problem from the chat within 3 days, get your Credits back and keep the document. It writes your complaints; it can't get money back by itself, and nobody honest can promise that."
 thanksBtn: "Get my action kit"
-thanksPS: "Under RBI's rules for fraud that went through without you doing anything, telling your bank within 3 working days of its alert can make your loss zero. That clock is already running. Your ₹100 lasts 7 days from sign-up."
+thanksPS: "Under RBI's rules for fraud that went through without you doing anything, telling your bank within 3 working days of its alert can make your loss zero. That clock is already running. Your first 100 Credits last 7 days from sign-up."
 ---
 <div class="box">
 <h3>Why are we publishing this?</h3>

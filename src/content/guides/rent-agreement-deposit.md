@@ -13,9 +13,9 @@ optinSub: "2 printable pages: the 11 checks, 5 clauses to ask for word for word,
 optinBullets: ["\"The entire deposit shall be forfeited\" is final, right? Wrong. Here's the line to replace it with.", "What you should never let a landlord write about painting and cleaning", "The 15 minute video on moving day that wins deposit fights", "Why \"notarised\" isn't registered, and the one state where every agreement must be"]
 agent: "rental-agreement-checker"
 thanksH: "While you wait: have your agreement checked before you sign"
-thanksText: "Upload the agreement, or photos of each page. It marks every clause that can cost you your deposit, rates the risk, and writes the polite wording to fix each one, with a checklist for signing day. If you're the tenant, it also ends with a move-out letter ready to send your landlord: it asks for the deposit back in your agreement's own words, with blanks for the dates and meter readings, and asks for an itemised list of any deduction. New accounts get ₹100 to spend on it within 7 days, enough for 3 of these, so your first one costs you nothing. Under 5 minutes or it's free, and useful or it's free: if it doesn't help, report a problem from the chat within 3 days, get your Credits back and keep the document."
+thanksText: "Upload the agreement, or photos of each page. It marks every clause that can cost you your deposit, rates the risk, and writes the polite wording to fix each one, with a checklist for signing day. If you're the tenant, it also ends with a move-out letter ready to send your landlord: it asks for the deposit back in your agreement's own words, with blanks for the dates and meter readings, and asks for an itemised list of any deduction. New accounts get their first 100 Credits to spend on it within 7 days, enough for 3 of these, so your first one costs you nothing. Under 5 minutes or it's free, and useful or it's free: if it doesn't help, report a problem from the chat within 3 days, get your Credits back and keep the document."
 thanksBtn: "Check my agreement"
-thanksPS: "Once it's signed, the clause is yours to live with for the whole stay. Your ₹100 lasts 7 days from sign-up."
+thanksPS: "Once it's signed, the clause is yours to live with for the whole stay. Your first 100 Credits last 7 days from sign-up."
 ---
 <div class="box">
 <h3>Why are we publishing this?</h3>

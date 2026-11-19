@@ -12,9 +12,9 @@ optinSub: "2 printable pages: the grievance letter with IRDAI's rules already wr
 optinBullets: ["A \"pre-existing disease\" rejection is final, right? Not after 60 months of continuous cover.", "What to note at the discharge desk to start the 3 hour clock", "The free route that hears claims up to ₹50 lakh", "Why \"as per policy terms\" isn't an answer, and what to ask for instead"]
 agent: "insurance-claim-helper"
 thanksH: "While you wait: get your whole fight written, not one letter"
-thanksText: "Tell it what the insurer said. It writes the grievance letter with the rule that answers their clause, the Bima Bharosa complaint, and the Insurance Ombudsman complaint, ready to send. ₹29 for all of it. Plus up to 3 follow-up letters free, if they don't reply. New accounts get ₹100 to spend on it within 7 days, enough for 3 of these, so your first one costs you nothing. Under 5 minutes or it's free, and useful or it's free: if it doesn't help, report a problem from the chat within 3 days, get your Credits back and keep the document."
+thanksText: "Tell it what the insurer said. It writes the grievance letter with the rule that answers their clause, the Bima Bharosa complaint, and the Insurance Ombudsman complaint, ready to send. ₹29 for all of it. Plus up to 3 follow-up letters free, if they don't reply. New accounts get their first 100 Credits to spend on it within 7 days, enough for 3 of these, so your first one costs you nothing. Under 5 minutes or it's free, and useful or it's free: if it doesn't help, report a problem from the chat within 3 days, get your Credits back and keep the document."
 thanksBtn: "Write my claim complaint"
-thanksPS: "You have one year from the insurer's final reply to go to the Ombudsman, and it starts with the grievance letter. Your ₹100 lasts 7 days from sign-up."
+thanksPS: "You have one year from the insurer's final reply to go to the Ombudsman, and it starts with the grievance letter. Your first 100 Credits last 7 days from sign-up."
 ---
 <div class="box">
 <h3>Why are we publishing this?</h3>

@@ -12,9 +12,9 @@ optinSub: "2 printable pages: a single column, one page resume layout to fill in
 optinBullets: ["The one line formula that turns \"responsible for\" into a result", "When a second page helps you, and when it costs you", "7 things Indian templates add that you can delete today", "The 30 second paste test that shows what a screening system sees"]
 agent: "resume-reviewer"
 thanksH: "While you wait: get your own resume reviewed against the job you want"
-thanksText: "Upload your resume and the job you're applying for. It tells you what to fix first, rewrites your weak lines into results, lists the keywords from the job post you're missing, and checks your layout for screening systems. New accounts get ₹100 to spend on it within 7 days, enough for 3 reviews, so your first one costs you nothing. Under 5 minutes or it's free, and useful or it's free: if it doesn't help, report a problem from the chat within 3 days, get your Credits back and keep the review."
+thanksText: "Upload your resume and the job you're applying for. It tells you what to fix first, rewrites your weak lines into results, lists the keywords from the job post you're missing, and checks your layout for screening systems. New accounts get their first 100 Credits to spend on it within 7 days, enough for 3 reviews, so your first one costs you nothing. Under 5 minutes or it's free, and useful or it's free: if it doesn't help, report a problem from the chat within 3 days, get your Credits back and keep the review."
 thanksBtn: "Review my resume"
-thanksPS: "Every application you send with the old resume is one you don't get back. Your ₹100 lasts 7 days from sign-up."
+thanksPS: "Every application you send with the old resume is one you don't get back. Your first 100 Credits last 7 days from sign-up."
 ---
 <div class="box">
 <h3>Why are we publishing this?</h3>

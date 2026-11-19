@@ -146,7 +146,7 @@ def build():
             continue
         offer = (f'<h1>Check your inbox</h1>\n<p class="dek">Your free kit is on its way. It usually lands within a minute; if it doesn\'t, look in Promotions or Spam and drag it to your inbox, so the next one arrives too.</p>\n'
                  f'<div class="cta">\n<h2>{g["thanksH"]}</h2>\n<p>{g["thanksText"]}</p>\n'
-                 f'<a class="btn" href="https://app.anotheryou.si/a/{g["agent"]}">{g["thanksBtn"]}</a>\n<p style="margin-top:16px">Why ₹100 free? One finished document shows you more than any page we could write.</p>\n</div>\n' +
+                 f'<a class="btn" href="https://app.anotheryou.si/a/{g["agent"]}">{g["thanksBtn"]}</a>\n<p style="margin-top:16px">Why 100 Credits free? One finished document shows you more than any page we could write.</p>\n</div>\n' +
                  (f'<p><b>P.S.</b> {g["thanksPS"]}</p>\n' if g.get("thanksPS") else '') +
                  f'<p style="margin-top:32px">Or read another guide:</p>\n<div class="list">\n{items}\n</div>')
         out = DIST / "thanks" / g["slug"] / "index.html"
