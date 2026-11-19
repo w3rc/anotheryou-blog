@@ -22,6 +22,40 @@ thanksPS: "The Ombudsman opens 30 days after your bank gets your complaint, and 
 <p>The Ombudsman is free, you don't need a lawyer, and RBI itself says you don't need to pay anyone to file for you. Here's how it works, from RBI's own rules.</p>
 </div>
 
+<form id="rbi-check" class="check ph-no-capture" novalidate>
+<p class="optin-tag">Free check</p>
+<h2>Your dates in 30 seconds</h2>
+<p class="optin-sub">Answer a few questions and see where you stand, your last day to file, and the one next step. Nothing you enter leaves this page.</p>
+<fieldset><legend>Who is the complaint against?</legend>
+<label><input type="radio" name="lender" value="covered" checked> A bank, NBFC, wallet or credit bureau</label>
+<label><input type="radio" name="lender" value="hfc"> A housing finance company</label>
+<label><input type="radio" name="lender" value="app"> A loan app with no bank or NBFC behind it</label>
+</fieldset>
+<fieldset><legend>Have you complained to them in writing?</legend>
+<label><input type="radio" name="wrote" value="yes" checked> Yes, by email, their grievance page or a stamped letter</label>
+<label><input type="radio" name="wrote" value="no"> No, or only on the phone</label>
+</fieldset>
+<div id="rbi-check-wrote">
+<label for="rbi-received">When did they get it?<input type="date" id="rbi-received" name="received"></label>
+<fieldset><legend>Did they reply?</legend>
+<label><input type="radio" name="reply" value="none" checked> No reply yet</label>
+<label><input type="radio" name="reply" value="unhappy"> Yes, and I'm not happy with it</label>
+<label><input type="radio" name="reply" value="happy"> Yes, and it's sorted</label>
+</fieldset>
+<label for="rbi-reply-date" id="rbi-reply-date-label" hidden>When did they reply?<input type="date" id="rbi-reply-date" name="replyDate"></label>
+</div>
+<fieldset><legend>Is the same problem already in a court, consumer commission or arbitration?</legend>
+<label><input type="radio" name="court" value="no" checked> No</label>
+<label><input type="radio" name="court" value="yes"> Yes</label>
+</fieldset>
+<button class="btn" type="submit">Show my dates</button>
+<p id="rbi-check-result" class="check-result" aria-live="polite"></p>
+<p id="rbi-check-offer" hidden>The Bank and Loan Complaint Writer writes the complaint to your bank and the Ombudsman complaint after it, with these dates in them.<br><a class="btn" href="https://app.anotheryou.si/a/bank-and-loan-complaint-writer">Write my complaint</a></p>
+<p class="consent">If an NPCI or card network rule gives your bank more time for this kind of problem, its 30 days can be longer.</p>
+</form>
+<script src="/rbi-check.js" defer></script>
+
+
 <h2>Step 1: the bank has to hear it first, in writing</h2>
 <p>RBI won't take your complaint unless you complained to the bank (or NBFC, loan app lender or wallet) first, and can prove it. A phone call isn't proof. Use the bank's grievance page or email, or hand in a letter at the branch and get a stamped copy. Keep the complaint number and the date.</p>
 <p>Then the bank gets 30 days. You can go to the Ombudsman when:</p>
