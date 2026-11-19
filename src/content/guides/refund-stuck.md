@@ -13,7 +13,7 @@ optinSub: "2 printable pages: the 4 steps after the chatbot, the email to the gr
 optinBullets: ["The chatbot is the grievance officer, right? Wrong.", "Where to find the person the law says must acknowledge you within 48 hours", "The one number that ends most \"we sent it\" arguments", "How to file a consumer complaint with no lawyer, and no fee up to ₹5 lakh"]
 agent: "consumer-complaint-writer"
 thanksH: "While you wait: get your whole fight written, not one letter"
-thanksText: "Tell it what happened. It writes the complaint to the company with a 15 day deadline, the grievance officer letter, what to paste into the National Consumer Helpline, and the e-Daakhil complaint for the right commission. New accounts get ₹100 to spend on it within 7 days, enough for 3 of these, so your first one costs you nothing. Under 5 minutes or it's free, and useful or it's free: if it doesn't help, report a problem from the chat within 3 days, get your Credits back and keep the document."
+thanksText: "Tell it what happened. It writes the complaint to the company with a 15 day deadline, the grievance officer letter, what to paste into the National Consumer Helpline, and the e-Daakhil complaint for the right commission. Plus up to 3 follow-up letters free, if they don't reply. New accounts get ₹100 to spend on it within 7 days, enough for 3 of these, so your first one costs you nothing. Under 5 minutes or it's free, and useful or it's free: if it doesn't help, report a problem from the chat within 3 days, get your Credits back and keep the document."
 thanksBtn: "Write my complaint"
 thanksPS: "The grievance officer's one month only starts when your complaint reaches them. Your ₹100 lasts 7 days from sign-up."
 ---
@@ -76,7 +76,7 @@ thanksPS: "The grievance officer's one month only starts when your complaint rea
 <div class="cta">
 <h2>Want it done for you?</h2>
 <p>Want the complaint itself written for you? There's an agent on Another You that writes the grievance officer email and the next letters, from your order details.</p>
-<p>One online legal service we checked quotes ₹1,499 to ₹2,499 for a single legal notice and guarantees it in 2 days. This writes the whole set for ₹29, in under 5 minutes or it's free. Useful or it's free: if it doesn't help, report it within 3 days, get your Credits back and keep the document. A new account's first one is free.</p>
+<p>One online legal service we checked quotes ₹1,499 to ₹2,499 for a single legal notice and guarantees it in 2 days. This writes the whole set for ₹29, in under 5 minutes or it's free. Plus up to 3 follow-up letters free, if they don't reply. Useful or it's free: if it doesn't help, report it within 3 days, get your Credits back and keep the document. A new account's first one is free.</p>
 <a class="btn ghost" href="https://app.anotheryou.si/a/consumer-complaint-writer">Write my complaint</a>
 </div>
 

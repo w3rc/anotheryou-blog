@@ -12,7 +12,7 @@ optinSub: "2 printable pages: the complaint letter to your bank with the right l
 optinBullets: ["The 30 day rule that decides whether RBI will even look at your complaint", "Why filing a month too late now gets your complaint rejected", "5 cases where the bank owes you ₹100 to ₹5,000 for every day it's late", "Who you should never pay to file it for you"]
 agent: "bank-and-loan-complaint-writer"
 thanksH: "While you wait: get your bank complaint and the Ombudsman complaint written"
-thanksText: "Tell it what happened. It finds the RBI rule your bank or lender broke, writes the complaint to them and the RBI Ombudsman complaint after it, and works out every deadline as a real date. New accounts get ₹100 to spend on it within 7 days, enough for 3 of these, so your first one costs you nothing. Under 5 minutes or it's free, and useful or it's free: if it doesn't help, report a problem from the chat within 3 days, get your Credits back and keep the document."
+thanksText: "Tell it what happened. It finds the RBI rule your bank or lender broke, writes the complaint to them and the RBI Ombudsman complaint after it, and works out every deadline as a real date. Plus up to 3 follow-up letters free, if they don't reply. New accounts get ₹100 to spend on it within 7 days, enough for 3 of these, so your first one costs you nothing. Under 5 minutes or it's free, and useful or it's free: if it doesn't help, report a problem from the chat within 3 days, get your Credits back and keep the document."
 thanksBtn: "Write my complaint"
 thanksPS: "The Ombudsman opens 30 days after your bank gets your complaint, and that clock starts only when you send it. Your ₹100 lasts 7 days from sign-up."
 ---
@@ -74,7 +74,7 @@ thanksPS: "The Ombudsman opens 30 days after your bank gets your complaint, and 
 <div class="cta">
 <h2>Want it written for you?</h2>
 <p>There's an agent on Another You that writes your complaint to the bank or NBFC with the RBI rule it broke, the daily penalty if one applies, and the RBI Ombudsman complaint after it, with every deadline as a real date.</p>
-<p>One online legal service we checked quotes ₹1,499 to ₹2,499 for a single legal notice and guarantees it in 2 days. This writes the whole set for ₹29, in under 5 minutes or it's free. Useful or it's free: if it doesn't help, report it within 3 days, get your Credits back and keep the document. A new account's first one is free.</p>
+<p>One online legal service we checked quotes ₹1,499 to ₹2,499 for a single legal notice and guarantees it in 2 days. This writes the whole set for ₹29, in under 5 minutes or it's free. Plus up to 3 follow-up letters free, if they don't reply. Useful or it's free: if it doesn't help, report it within 3 days, get your Credits back and keep the document. A new account's first one is free.</p>
 <a class="btn ghost" href="https://app.anotheryou.si/a/bank-and-loan-complaint-writer">Write my complaint</a>
 </div>
 
