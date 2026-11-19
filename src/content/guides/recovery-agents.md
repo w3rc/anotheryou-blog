@@ -23,6 +23,46 @@ thanksPS: "The RBI Ombudsman route opens 30 days after you complain to your bank
 <p>Most people on the receiving end of those calls have never read the rules the callers are breaking. Here they are, in plain words. This doesn't cancel what you owe. It protects how you're treated while you sort it out.</p>
 </div>
 
+<form class="check ph-no-capture" data-check="recovery-agents" novalidate>
+<p class="optin-tag">Free check</p>
+<h2>Which rule did they break, and what next?</h2>
+<p class="optin-sub">Answer a few questions and see where you stand, your dates, and the one next step. Nothing you enter leaves this page.</p>
+<fieldset><legend>Who gave the loan?</legend>
+<label><input type="radio" name="lender" value="bank" checked> A bank</label>
+<label><input type="radio" name="lender" value="nbfc"> An NBFC, or a loan app run by one</label>
+<label><input type="radio" name="lender" value="app"> A loan app with no bank or NBFC behind it</label>
+</fieldset>
+<fieldset><legend>What did they do? Tick all that happened.</legend>
+<label><input type="checkbox" name="did" value="early_late"> Called before 8 am or after 7 pm</label>
+<label><input type="checkbox" name="did" value="repeat"> Called again and again</label>
+<label><input type="checkbox" name="did" value="family"> Called or messaged my family, referees or friends</label>
+<label><input type="checkbox" name="did" value="public"> Humiliated me in public</label>
+<label><input type="checkbox" name="did" value="messages"> Sent rude or inappropriate messages</label>
+<label><input type="checkbox" name="did" value="threats"> Made threatening or anonymous calls</label>
+<label><input type="checkbox" name="did" value="fake"> Sent a fake legal notice or threatened arrest</label>
+<label><input type="checkbox" name="did" value="crime"> Threatened violence, tried extortion, or used morphed photos of me</label>
+</fieldset>
+<div data-when="lender=bank|nbfc">
+<fieldset><legend>Have you complained to the lender in writing?</legend>
+<label><input type="radio" name="wrote" value="yes"> Yes, by email, their grievance page or a letter</label>
+<label><input type="radio" name="wrote" value="no" checked> No, or only on the phone</label>
+</fieldset>
+<div data-when="wrote=yes">
+<label>When did they get it?<input type="date" name="received"></label>
+<fieldset><legend>Did they reply?</legend>
+<label><input type="radio" name="reply" value="none" checked> No reply yet</label>
+<label><input type="radio" name="reply" value="unhappy"> Yes, and they said no, or I'm not happy with it</label>
+<label><input type="radio" name="reply" value="happy"> Yes, and the calls stopped</label>
+</fieldset>
+<label data-when="reply=unhappy">When did they reply?<input type="date" name="replyDate"></label>
+</div>
+</div>
+<button class="btn" type="submit">Show my next step</button>
+<p class="check-result" aria-live="polite"></p>
+<p class="check-offer" hidden>The Bank and Loan Complaint Writer writes the letter to your bank or NBFC, with the rule they broke and the RBI Ombudsman step after it.<br><a class="btn" href="https://app.anotheryou.si/a/bank-and-loan-complaint-writer">Write my complaint</a></p>
+</form>
+<script src="/checks.js" defer></script>
+
 <h2>The 6 things RBI says they must not do</h2>
 <p>RBI's rules for banks and for NBFCs (finance companies and the loan apps they run) say the lender and its agents must not:</p>
 <ol class="tight">

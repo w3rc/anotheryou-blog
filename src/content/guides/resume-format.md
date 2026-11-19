@@ -22,6 +22,40 @@ thanksPS: "Every application you send with the old resume is one you don't get b
 <p>Google's careers team publishes a short resume guide for candidates. Below are its rules, in plain words, and how they apply to a resume for a job in India.</p>
 </div>
 
+<form class="check ph-no-capture" data-check="resume-format" novalidate>
+<p class="optin-tag">Free check</p>
+<h2>What to fix first on your resume</h2>
+<p class="optin-sub">Answer a few questions and see what to fix first, by the rules in this guide. Nothing you enter leaves this page.</p>
+<fieldset><legend>How much relevant experience do you have?</legend>
+<label><input type="radio" name="exp" value="fresher"> Fresher or student (0 to 1 year)</label>
+<label><input type="radio" name="exp" value="mid"> 1 to 10 years</label>
+<label><input type="radio" name="exp" value="senior"> 10 years or more</label>
+</fieldset>
+<fieldset><legend>How many pages is it?</legend>
+<label><input type="radio" name="pages" value="1" checked> 1</label>
+<label><input type="radio" name="pages" value="2"> 2</label>
+<label><input type="radio" name="pages" value="3"> 3 or more</label>
+</fieldset>
+<fieldset><legend>Do you send it as a PDF?</legend>
+<label><input type="radio" name="pdf" value="yes" checked> Yes</label>
+<label><input type="radio" name="pdf" value="no"> No, a Word file or something else</label>
+</fieldset>
+<fieldset><legend>What's on it? Tick all that are.</legend>
+<label><input type="checkbox" name="has" value="photo"> A photo</label>
+<label><input type="checkbox" name="has" value="personal"> Date of birth, marital status, religion or father's name</label>
+<label><input type="checkbox" name="has" value="address"> My full home address</label>
+<label><input type="checkbox" name="has" value="ctc"> Current or expected CTC</label>
+<label><input type="checkbox" name="has" value="objective"> A career objective</label>
+<label><input type="checkbox" name="has" value="references"> References, or "References available on request"</label>
+<label><input type="checkbox" name="has" value="declaration"> A declaration ("I hereby declare...")</label>
+<label><input type="checkbox" name="has" value="columns"> Two columns, icons or skill bars</label>
+</fieldset>
+<button class="btn" type="submit">Show what to fix</button>
+<p class="check-result" aria-live="polite"></p>
+<p class="check-offer" hidden>The Resume Reviewer reads your resume against the job you want: what to fix first, your weak lines rewritten as results, and the keywords from the job post you're missing.<br><a class="btn" href="https://app.anotheryou.si/a/resume-reviewer">Review my resume</a></p>
+</form>
+<script src="/checks.js" defer></script>
+
 <h2>The 7 rules</h2>
 <ol>
 <li><strong>Send a PDF.</strong> It's the first thing on Google's list.</li>

@@ -27,6 +27,43 @@ thanksPS: "You have one year from the insurer's final reply to go to the Ombudsm
 <p>Three hours. Under IRDAI's master circular on health insurance (May 2024), an insurer has to decide a cashless request within one hour of the hospital asking, and give the final authorisation at discharge within three hours of the hospital's request. If it takes longer and the hospital charges extra for the delay, the insurer has to bear that amount, not you.</p>
 <p>And for a cashless claim, the insurer or TPA collects the papers from the hospital. You shouldn't be sent running for documents the hospital already has.</p>
 
+<form class="check ph-no-capture" data-check="health-insurance-claim" novalidate>
+<p class="optin-tag">Free check</p>
+<h2>Your claim: what the rules say, and your dates</h2>
+<p class="optin-sub">Answer a few questions and see where you stand, your dates, and the one next step. Nothing you enter leaves this page.</p>
+<fieldset><legend>What did the insurer do?</legend>
+<label><input type="radio" name="what" value="cut" checked> Paid only part of the claim</label>
+<label><input type="radio" name="what" value="ped"> Rejected it for a pre-existing disease or non-disclosure</label>
+<label><input type="radio" name="what" value="other"> Rejected it for another reason</label>
+</fieldset>
+<fieldset data-when="what=ped"><legend>How long has the cover run without a break? Renewals and porting count.</legend>
+<label><input type="radio" name="years" value="lt3"> Less than 3 years</label>
+<label><input type="radio" name="years" value="3to5"> 3 years or more, but less than 5</label>
+<label><input type="radio" name="years" value="5plus"> 5 years (60 months) or more</label>
+</fieldset>
+<fieldset><legend>Is the claim above ₹50 lakh?</legend>
+<label><input type="radio" name="big" value="no" checked> No</label>
+<label><input type="radio" name="big" value="yes"> Yes</label>
+</fieldset>
+<fieldset><legend>Have you written to the insurer's grievance officer?</legend>
+<label><input type="radio" name="wrote" value="yes"> Yes</label>
+<label><input type="radio" name="wrote" value="no" checked> No</label>
+</fieldset>
+<div data-when="wrote=yes">
+<label>When did you send it?<input type="date" name="sent"></label>
+<fieldset><legend>Did they reply?</legend>
+<label><input type="radio" name="reply" value="none" checked> No reply yet</label>
+<label><input type="radio" name="reply" value="unhappy"> Yes, and they said no, or I'm not happy with it</label>
+<label><input type="radio" name="reply" value="happy"> Yes, and it's sorted</label>
+</fieldset>
+<label data-when="reply=unhappy">When was their final reply?<input type="date" name="replyDate"></label>
+</div>
+<button class="btn" type="submit">Show my next step</button>
+<p class="check-result" aria-live="polite"></p>
+<p class="check-offer" hidden>The Insurance Claim Helper reads the insurer's letter, tells you how strong the case looks against the rules, and writes the grievance letter and the Ombudsman complaint.<br><a class="btn" href="https://app.anotheryou.si/a/insurance-claim-helper">Write my claim complaint</a></p>
+</form>
+<script src="/checks.js" defer></script>
+
 <h2>"Why did they cut the claim?"</h2>
 <p>Ask for it in writing, with the exact clause. "As per policy terms" isn't an answer. The usual reasons are:</p>
 <ul class="tight">

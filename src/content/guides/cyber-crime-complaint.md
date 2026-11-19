@@ -32,6 +32,39 @@ thanksPS: "Under RBI's rules for fraud that went through without you doing anyth
 </ol>
 <p>Paid by UPI? Also raise a dispute inside the UPI app. It goes to the bank behind the app.</p>
 
+<form class="check ph-no-capture" data-check="cyber-crime-complaint" novalidate>
+<p class="optin-tag">Free check</p>
+<h2>Your case: which rule applies, and your dates</h2>
+<p class="optin-sub">Answer a few questions and see where you stand, your dates, and the one next step. Nothing you enter leaves this page.</p>
+<fieldset><legend>How did the money leave?</legend>
+<label><input type="radio" name="how" value="unauth" checked> Without me doing anything: a cloned card, a SIM swap, a debit I never made</label>
+<label><input type="radio" name="how" value="otp"> I shared an OTP, PIN or card details, or installed an app they sent</label>
+<label><input type="radio" name="how" value="sent"> I sent it myself: a QR code, a fake seller, a job, task or investment scam</label>
+</fieldset>
+<label>When did it leave? (The date of the bank's alert)<input type="date" name="left"></label>
+<fieldset><legend>Have you called 1930 or filed on cybercrime.gov.in?</legend>
+<label><input type="radio" name="called" value="yes"> Yes</label>
+<label><input type="radio" name="called" value="no" checked> Not yet</label>
+</fieldset>
+<fieldset><legend>Have you told your bank in writing?</legend>
+<label><input type="radio" name="told" value="yes"> Yes: the app's fraud option, email or a letter</label>
+<label><input type="radio" name="told" value="no" checked> Not yet, or only on the phone</label>
+</fieldset>
+<div data-when="told=yes">
+<label>When did the bank get it?<input type="date" name="toldDate"></label>
+<fieldset><legend>Has the bank replied?</legend>
+<label><input type="radio" name="reply" value="none" checked> Not yet</label>
+<label><input type="radio" name="reply" value="unhappy"> Yes, and they said no, or I'm not happy with it</label>
+<label><input type="radio" name="reply" value="happy"> Yes, and it's sorted</label>
+</fieldset>
+<label data-when="reply=unhappy">When did they reply?<input type="date" name="replyDate"></label>
+</div>
+<button class="btn" type="submit">Show my next step</button>
+<p class="check-result" aria-live="polite"></p>
+<p class="check-offer" hidden>The Cyber Fraud Complaint Helper writes the letter to your bank, the cybercrime.gov.in complaint, the FIR request and the RBI Ombudsman complaint, with your dates worked out. Your first kit is free. It writes complaints; it can't get money back by itself.<br><a class="btn" href="https://app.anotheryou.si/a/cyber-fraud-complaint-helper">Get my free action kit</a></p>
+</form>
+<script src="/checks.js" defer></script>
+
 <h2>Why #2 can decide whether the bank pays</h2>
 <p>RBI's rules on customer liability (now in its Responsible Business Conduct Directions, 2025) depend on two things: how the money left, and how fast you told the bank.</p>
 <p><strong>If money left without you doing anything</strong> (a card cloned, a SIM swap, a debit you never made) and the fault was neither yours nor the bank's, the clock counts working days from the bank's alert:</p>

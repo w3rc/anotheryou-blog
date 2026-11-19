@@ -23,6 +23,30 @@ thanksPS: "Every clause is easiest to change before you sign. Your first 100 Cre
 <p>Most of the answer was decided earlier: by three lines in a contract signed in an hour, and by one free registration most freelancers never do. Here's both. No sign up to read it, nothing to buy.</p>
 </div>
 
+<form class="check ph-no-capture" data-check="client-not-paying" novalidate>
+<p class="optin-tag">Free check</p>
+<h2>When was it due, and what can you do?</h2>
+<p class="optin-sub">Answer a few questions and see where you stand, your dates, and the one next step. Nothing you enter leaves this page.</p>
+<fieldset><legend>Where is the client?</legend>
+<label><input type="radio" name="where" value="india" checked> In India</label>
+<label><input type="radio" name="where" value="abroad"> Abroad</label>
+</fieldset>
+<div data-when="where=india">
+<fieldset><legend>Were you registered on Udyam before you agreed this work?</legend>
+<label><input type="radio" name="udyam" value="yes"> Yes</label>
+<label><input type="radio" name="udyam" value="no" checked> No, or I registered later</label>
+</fieldset>
+<div data-when="udyam=yes">
+<label>When did the client accept the work?<input type="date" name="accepted"></label>
+<label>Payment period you agreed, in days (leave it empty if none)<input type="number" name="agreedDays" min="0" step="1" inputmode="numeric"></label>
+</div>
+</div>
+<button class="btn" type="submit">Show my next step</button>
+<p class="check-result" aria-live="polite"></p>
+<p class="check-offer" hidden>The Freelance Contract Checker reads your contract and ends with a payment reminder that quotes its own payment clause, with the MSMED Act paragraph if you're on Udyam and the client is in India.<br><a class="btn" href="https://app.anotheryou.si/a/freelance-contract-checker">Check my contract</a></p>
+</form>
+<script src="/checks.js" defer></script>
+
 <h2>"My client is not paying me. What should I do?"</h2>
 <p>Start with a written reminder (email, not a call) that attaches the invoice, says the date it was due, and gives a new date: 7 days is fair. If your contract lets you pause work on an overdue invoice, say you're pausing. Polite, dated and boring wins here. A client who later claims "we never got it" has an email thread saying otherwise.</p>
 <p>What happens after that depends on two things: whether your client is in India, and whether you were registered as a micro enterprise before you took the job.</p>

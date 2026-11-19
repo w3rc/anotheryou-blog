@@ -24,6 +24,28 @@ thanksPS: "The grievance officer's one month only starts when your complaint rea
 <p>Most people stop at the chatbot. The law gives them three more steps after it, and two of them are free. Here they are, in order. No sign up to read this, nothing to buy.</p>
 </div>
 
+<form class="check ph-no-capture" data-check="refund-stuck" novalidate>
+<p class="optin-tag">Free check</p>
+<h2>Your refund, and the date they have to answer by</h2>
+<p class="optin-sub">Answer a few questions and see where you stand, your dates, and the one next step. Nothing you enter leaves this page.</p>
+<fieldset><legend>Where is your refund?</legend>
+<label><input type="radio" name="where" value="waiting" checked> Picked up or cancelled, and no refund yet</label>
+<label><input type="radio" name="where" value="sent"> The site says it was sent, but my bank shows nothing</label>
+</fieldset>
+<div data-when="where=waiting">
+<fieldset><legend>Have you written to the site's grievance officer?</legend>
+<label><input type="radio" name="wrote" value="yes"> Yes, by email</label>
+<label><input type="radio" name="wrote" value="no" checked> No, only the chatbot or customer care</label>
+</fieldset>
+<label data-when="wrote=no">When was it picked up or cancelled?<input type="date" name="pickup"></label>
+<label data-when="wrote=yes">When did you write to them?<input type="date" name="wroteDate"></label>
+</div>
+<button class="btn" type="submit">Show my next step</button>
+<p class="check-result" aria-live="polite"></p>
+<p class="check-offer" hidden>The Consumer Complaint Writer writes the grievance officer email and the next letters, from your order details.<br><a class="btn" href="https://app.anotheryou.si/a/consumer-complaint-writer">Write my complaint</a></p>
+</form>
+<script src="/checks.js" defer></script>
+
 <h2>"Is there any actual deadline, or do they just keep moving it?"</h2>
 <p>There is one. Under the Consumer Protection (E-Commerce) Rules, 2020, every shopping site and marketplace has to appoint a grievance officer, publish their name and contact details on the site or app, acknowledge your complaint within 48 hours, and resolve it within one month.</p>
 <p>The chatbot isn't the grievance officer. The ticket it closed isn't a complaint to them. That's the first thing to fix.</p>

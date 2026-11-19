@@ -24,6 +24,34 @@ thanksPS: "Once it's signed, the clause is yours to live with for the whole stay
 <p>Almost all of that is decided on the day you sign, at a stamp paper vendor, in about ten minutes. So here's what to read before you sign. No sales pitch. If you want the full checklist as a printable page, there's a line at the end.</p>
 </div>
 
+<form class="check ph-no-capture" data-check="rent-agreement-deposit" novalidate>
+<p class="optin-tag">Free check</p>
+<h2>Your deposit: what to do next</h2>
+<p class="optin-sub">Answer a few questions and see the one next step for where you are. Nothing you enter leaves this page.</p>
+<fieldset><legend>Where are you?</legend>
+<label><input type="radio" name="stage" value="sign" checked> About to sign or renew an agreement</label>
+<label><input type="radio" name="stage" value="left"> Moved out, and the deposit isn't back</label>
+</fieldset>
+<fieldset><legend>Where is the flat?</legend>
+<label><input type="radio" name="place" value="mta"> Tamil Nadu, Uttar Pradesh, Assam or Andhra Pradesh</label>
+<label><input type="radio" name="place" value="mumbai"> Mumbai</label>
+<label><input type="radio" name="place" value="maharashtra"> Elsewhere in Maharashtra</label>
+<label><input type="radio" name="place" value="other" checked> Somewhere else</label>
+</fieldset>
+<fieldset data-when="stage=sign;place=mta"><legend>How big is the deposit?</legend>
+<label><input type="radio" name="deposit" value="le2" checked> 2 months' rent or less</label>
+<label><input type="radio" name="deposit" value="gt2"> More than 2 months' rent</label>
+</fieldset>
+<fieldset data-when="stage=left"><legend>Have you asked for it in writing, by email or WhatsApp?</legend>
+<label><input type="radio" name="asked" value="yes"> Yes</label>
+<label><input type="radio" name="asked" value="no" checked> No, only on calls</label>
+</fieldset>
+<button class="btn" type="submit">Show my next step</button>
+<p class="check-result" aria-live="polite"></p>
+<p class="check-offer" hidden>The Rental Agreement Checker reads your agreement clause by clause, marks the risky lines with the wording to ask for instead, and ends with a move-out letter that quotes your own agreement's clauses.<br><a class="btn" href="https://app.anotheryou.si/a/rental-agreement-checker">Check my agreement</a></p>
+</form>
+<script src="/checks.js" defer></script>
+
 <h2><span class="n">1.</span>"How much deposit is legal?"</h2>
 <p>There's no national cap. In Bengaluru, 6 to 10 months' rent is custom, not law; Karnataka has no legal limit. In Mumbai and Pune, 3 to 6 months is common. Only the states that adopted the Model Tenancy Act (Tamil Nadu, Uttar Pradesh, Assam, Andhra Pradesh and some union territories) cap a residential deposit at 2 months' rent.</p>
 <p>A big deposit is legal. It's also negotiable. Ask for less, or ask for interest on it. The worst answer you'll get is no.</p>
