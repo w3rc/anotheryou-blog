@@ -109,6 +109,11 @@ assert.strictEqual(iso(addMonths(parse("2026-12-15"), 1)), "2027-01-15");
   r = c({ ...base, big: "yes" }, "2026-11-19"); has(r, "e-Daakhil"); hasNot(r, "Insurance Ombudsman opens");
   r = c({ ...base, big: "yes", wrote: "yes", sent: "2026-10-01", reply: "unhappy", replyDate: "2026-10-20" }, "2026-11-19");
   has(r, "e-Daakhil"); hasNot(r, "cioins");
+  // above Rs 50 lakh the offer (which names an Ombudsman complaint) stays hidden at every stage
+  for (const a of [{}, { wrote: "yes", sent: "2026-11-10" }, { wrote: "yes", sent: "2026-10-01" },
+    { wrote: "yes", sent: "2026-10-01", reply: "unhappy", replyDate: "2026-10-20" }]) {
+    r = c({ ...base, big: "yes", ...a }, "2026-11-19"); assert.strictEqual(r.offer, false, r.stage + " offered above 50 lakh");
+  }
   r = c({ ...base, wrote: "yes", sent: "2026-10-01", reply: "unhappy", replyDate: "2026-09-01" }, "2026-11-19"); assert.strictEqual(r.stage, "invalid");
   // stale: years is ignored unless the reason is a pre-existing disease
   r = c({ ...base, years: "5plus" }, "2026-11-19"); hasNot(r, "60 months");

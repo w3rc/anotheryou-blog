@@ -121,23 +121,23 @@
     var BIG = " Above ₹50 lakh, the Insurance Ombudsman can't take it (it hears claims up to ₹50 lakh): after the insurer, the route is the consumer commission, on e-Daakhil.";
     var head = why + (big ? BIG : "") + " ";
     if (a.wrote === "no") return out("write", head + "Next step: write to the insurer's grievance officer, quoting the clause they used and the rule that answers it, and keep the acknowledgement. A reply is due in about 14 days." +
-      (big ? "" : " If they reject it or don't reply within 30 days, the Insurance Ombudsman opens: if they get it today, from " + human(addDays(now, 30)) + "."), true);
+      (big ? "" : " If they reject it or don't reply within 30 days, the Insurance Ombudsman opens: if they get it today, from " + human(addDays(now, 30)) + "."), !big);
     var sent = date(a.sent, now);
     if (bad(sent)) return sent;
     if (a.reply === "happy") return out("resolved", "Then you're done. Keep the folder: every year's policy schedule, the claim forms, the discharge summary, the final bill and their letter.");
     if (a.reply === "unhappy") {
       var r = date(a.replyDate, now, sent);
       if (bad(r)) return r;
-      if (big) return out("commission", head + "File with the consumer commission on e-Daakhil.", true);
+      if (big) return out("commission", head + "File with the consumer commission on e-Daakhil.");
       var last = addMonths(r, 12);
       if (now <= last) return out("open", head + "You can go to the Insurance Ombudsman now at cioins.co.in. It's free and you don't need a lawyer. Your last day is " + human(last) + ", one year from their final reply.", true);
       return out("late", head + "Your year to go to the Insurance Ombudsman ended on " + human(last) + ", one year from their final reply. The other route is the consumer commission, on e-Daakhil.");
     }
     var opens = addDays(sent, 30);
     if (now < opens) return out("wait", head + "A reply is due in about 14 days, so around " + human(addDays(sent, 14)) + ". Meanwhile you can also complain on Bima Bharosa (bimabharosa.irdai.gov.in, toll free 155255)." +
-      (big ? "" : " If there's no reply by " + human(opens) + ", you can go to the Insurance Ombudsman at cioins.co.in."), true);
+      (big ? "" : " If there's no reply by " + human(opens) + ", you can go to the Insurance Ombudsman at cioins.co.in."), !big);
     return out("open", head + (big ? "They've had 30 days without a reply. File with the consumer commission on e-Daakhil."
-      : "They've had 30 days without a reply, so you can go to the Insurance Ombudsman now at cioins.co.in. It's free and you don't need a lawyer."), true);
+      : "They've had 30 days without a reply, so you can go to the Insurance Ombudsman now at cioins.co.in. It's free and you don't need a lawyer."), !big); // ponytail: the offer names an Ombudsman complaint, so none above 50 lakh
   };
 
   CHECKS["rent-agreement-deposit"] = function (a, today) {
